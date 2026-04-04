@@ -1,4 +1,5 @@
 import { ref, watch } from 'vue'
+import { badges } from '../data/badges.js'
 
 const STORAGE_KEY = 'maple-badge-tracker'
 
@@ -74,10 +75,52 @@ export function useStorage() {
     return Object.keys(state.value.references ?? {}).length
   }
 
+  /** Build a map of bundled (asset) icons: familiarId → URL */
+  function getBundledReferenceImages() {
+    const bundled = {}
+    for (const badge of badges) {
+      for (const f of badge.familiars) {
+        if (f.icon) bundled[f.id] = f.icon
+      }
+    }
+    return bundled
+  }
+
+  /** Merge bundled + user-uploaded references (uploaded takes priority) */
+  function getAllReferenceImagesWithBundled() {
+    return {
+      ...getBundledReferenceImages(),
+      ...getAllReferenceImages(),
+    }
+  }
+
+  function getReferenceCountWithBundled() {
+    return Object.keys(getAllReferenceImagesWithBundled()).length
+  }
+
+  /** Check if a familiar has a bundled icon */
+  function hasBundledIcon(familiarId) {
+    for (const badge of badges) {
+      for (const f of badge.familiars) {
+        if (f.id === familiarId && f.icon) return true
+      }
+    }
+    return false
+  }
+
+  function getBundledIcon(familiarId) {
+    for (const badge of badges) {
+      for (const f of badge.familiars) {
+        if (f.id === familiarId && f.icon) return f.icon
+      }
+    }
+    return null
+  }
+
   /* ── Settings ────────────────────────────────────────────────── */
   function getSettings() {
     return {
-      threshold: 0.7,
+      threshold: 0.85,
       ...state.value.settings,
     }
   }
@@ -114,7 +157,11 @@ export function useStorage() {
     setReferenceImage,
     removeReferenceImage,
     getAllReferenceImages,
+    getAllReferenceImagesWithBundled,
     getReferenceCount,
+    getReferenceCountWithBundled,
+    hasBundledIcon,
+    getBundledIcon,
     getSettings,
     updateSettings,
     exportData,

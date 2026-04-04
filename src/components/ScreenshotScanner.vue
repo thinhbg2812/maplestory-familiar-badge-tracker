@@ -40,6 +40,20 @@
         <div class="paste-hint text-sm text-muted">
           Click here and press Ctrl+V (or ⌘+V on Mac)
         </div>
+        <div class="paste-actions" style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap">
+          <label class="btn btn-ghost btn-sm upload-label">
+            📂 Upload Image
+            <input
+              type="file"
+              accept="image/*"
+              class="sr-only"
+              @change="handleFileUpload"
+            />
+          </label>
+          <button v-if="hasTestImage" class="btn btn-ghost btn-sm" @click.stop="loadTestImage">
+            🧪 Load Test Image
+          </button>
+        </div>
       </div>
 
       <div v-else class="paste-preview">
@@ -63,7 +77,7 @@
       </button>
 
       <div v-if="referenceCount === 0" class="text-sm" style="color: var(--c-warning)">
-        ⚠️ No reference images uploaded. Go to the References tab first.
+        ⚠️ No reference images available. Upload icons in the References tab or use a badge with built-in icons.
       </div>
 
       <div v-if="scanProgress" class="scan-progress text-sm text-muted">
@@ -86,8 +100,8 @@
         >
           <div class="result-icon">
             <img
-              v-if="getReferenceImage(result.familiarId)"
-              :src="getReferenceImage(result.familiarId)"
+              v-if="getReferenceImage(result.familiarId) || getBundledIcon(result.familiarId)"
+              :src="getReferenceImage(result.familiarId) || getBundledIcon(result.familiarId)"
               alt=""
               class="result-thumb"
             />
@@ -129,8 +143,11 @@ import { useStorage } from '../composables/useStorage.js'
 import { useBadgeTracker } from '../composables/useBadgeTracker.js'
 import { badges } from '../data/badges.js'
 
+// Test image (available in public folder)
+let testImageUrl = '/test-images/test-have-starter.png'
+
 const { cvReady, cvLoading, cvError, loadOpenCV, scanScreenshot } = useOpenCV()
-const { getAllReferenceImages, getReferenceImage, getReferenceCount, getSettings } = useStorage()
+const { getAllReferenceImagesWithBundled, getReferenceImage, getReferenceCountWithBundled, getBundledIcon, getSettings } = useStorage()
 const { isCollected, bulkSetCollected } = useBadgeTracker()
 
 const pasteZone = ref(null)
@@ -140,7 +157,28 @@ const isDragging = ref(false)
 const scanning = ref(false)
 const scanProgress = ref(null)
 const scanResults = ref(null)
-const referenceCount = getReferenceCount()
+const referenceCount = getReferenceCountWithBundled()
+const hasTestImage = !!testImageUrl
+
+function loadTestImage() {
+  if (!testImageUrl) return
+  screenshotSrc.value = testImageUrl
+  scanResults.value = null
+  drawPreview(testImageUrl)
+}
+
+function handleFileUpload(e) {
+  const file = e.target.files?.[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = (ev) => {
+    screenshotSrc.value = ev.target.result
+    scanResults.value = null
+    drawPreview(ev.target.result)
+  }
+  reader.readAsDataURL(file)
+  e.target.value = ''
+}
 
 // Build a flat lookup: familiarId → name
 const familiarMap = {}
@@ -218,7 +256,7 @@ async function runScan() {
   scanResults.value = null
 
   try {
-    const refs = getAllReferenceImages()
+    const refs = getAllReferenceImagesWithBundled()
     const settings = getSettings()
 
     scanProgress.value = `Scanning against ${Object.keys(refs).length} reference(s)…`
@@ -300,6 +338,7 @@ function markAllDetected() {
 
 .paste-zone {
   min-height: 260px;
+  max-height:60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -422,5 +461,20 @@ function markAllDetected() {
 
 .result-meta {
   margin-top: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.upload-label {
+  cursor: pointer;
 }
 </style>

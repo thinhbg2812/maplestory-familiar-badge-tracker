@@ -59,8 +59,8 @@
           >
             <div class="ref-preview">
               <img
-                v-if="getReferenceImage(familiar.id)"
-                :src="getReferenceImage(familiar.id)"
+                v-if="getReferenceImage(familiar.id) || familiar.icon"
+                :src="getReferenceImage(familiar.id) || familiar.icon"
                 :alt="familiar.name"
                 class="ref-thumb"
               />
@@ -74,10 +74,14 @@
               <div v-if="familiar.boosterOnly" class="text-xs" style="color: var(--c-warning)">
                 Booster Pack Only
               </div>
+              <div v-if="familiar.icon" class="text-xs" style="color: var(--c-success)">
+                ✓ Built-in reference
+              </div>
             </div>
 
             <div class="ref-actions">
-              <label class="btn btn-ghost btn-sm upload-label">
+              <span v-if="familiar.icon && !getReferenceImage(familiar.id)" class="tag tag-success">Built-in</span>
+              <label v-else class="btn btn-ghost btn-sm upload-label">
                 {{ getReferenceImage(familiar.id) ? 'Replace' : 'Upload' }}
                 <input
                   type="file"
@@ -112,6 +116,7 @@ const {
   setReferenceImage,
   removeReferenceImage,
   getAllReferenceImages,
+  getAllReferenceImagesWithBundled,
 } = useStorage()
 
 const search = ref('')
@@ -124,11 +129,11 @@ const filters = [
   { value: 'missing', label: 'Missing' },
 ]
 
-const uploadedCount = computed(() => Object.keys(getAllReferenceImages()).length)
+const uploadedCount = computed(() => Object.keys(getAllReferenceImagesWithBundled()).length)
 
 const filteredBadges = computed(() => {
   return badges.filter((b) => {
-    const refs = getAllReferenceImages()
+    const refs = getAllReferenceImagesWithBundled()
 
     // search match
     if (search.value) {
@@ -151,7 +156,7 @@ const filteredBadges = computed(() => {
 })
 
 function getUploadedInBadge(badge) {
-  const refs = getAllReferenceImages()
+  const refs = getAllReferenceImagesWithBundled()
   return badge.familiars.filter((f) => refs[f.id]).length
 }
 

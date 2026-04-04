@@ -20,7 +20,8 @@ async function loadOpenCV() {
 
   loadPromise = (async () => {
     try {
-      const { default: cv } = await import('@opencvjs/web')
+      const { loadOpenCV } = await import('@opencvjs/web')
+      const cv = await loadOpenCV() // call the async builder from the module
       cvInstance.value = cv
       cvReady.value = true
       return cv
@@ -64,7 +65,7 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
 
   for (const scale of scales) {
     let scaledTmpl = tmplGray
-
+    
     if (scale !== 1.0) {
       scaledTmpl = new cv.Mat()
       const newW = Math.round(tmplGray.cols * scale)
@@ -79,7 +80,9 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
 
     // Template must be smaller than source
     if (scaledTmpl.rows > srcGray.rows || scaledTmpl.cols > srcGray.cols) {
-      if (scale !== 1.0) scaledTmpl.delete()
+      if (scale !== 1.0) {
+        scaledTmpl.delete()
+      }
       continue
     }
 
@@ -89,7 +92,7 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
     // Find ALL locations above threshold (not just the single best)
     const tw = scaledTmpl.cols
     const th = scaledTmpl.rows
-
+    
     // Iterate through result matrix to find matches above threshold
     for (let y = 0; y < result.rows; y++) {
       for (let x = 0; x < result.cols; x++) {
@@ -114,7 +117,9 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
     }
 
     result.delete()
-    if (scale !== 1.0) scaledTmpl.delete()
+    if (scale !== 1.0) {
+      scaledTmpl.delete()
+    }
   }
 
   // Cleanup
@@ -148,11 +153,26 @@ async function scanScreenshot(screenshotCanvas, referenceImages, opts = {}) {
   return results
 }
 
-/**  Load an image from a data URL into an HTMLImageElement */
+/**  Load an image from a data URL into an HTMLCanvasElement with composited background */
 function loadImage(src) {
   return new Promise((resolve, reject) => {
     const img = new Image()
-    img.onload = () => resolve(img)
+    img.onload = () => {
+      // By drawing to a canvas with a neutral gray/blue background, 
+      // we eliminate transparent holes that skew CCOEFF means, 
+      // preventing "0 matches" on standard backgrounds.
+      const canvas = document.createElement('canvas')
+      canvas.width = img.naturalWidth
+      canvas.height = img.naturalHeight
+      const ctx = canvas.getContext('2d')
+      
+      // Typical MapleStory card background color (#4a4e69 / neutral dark greyish)
+      // This bridges the transparent .webp icon pixels to map accurately against in-game cards
+      ctx.fillStyle = "#4a4e69" 
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+      ctx.drawImage(img, 0, 0)
+      resolve(canvas)
+    }
     img.onerror = reject
     img.src = src
   })

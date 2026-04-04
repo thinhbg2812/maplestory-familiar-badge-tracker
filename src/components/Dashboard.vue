@@ -119,8 +119,8 @@ const {
   nearCompleteBadges,
 } = useBadgeTracker()
 
-const { getReferenceCount } = useStorage()
-const referenceCount = getReferenceCount()
+const { getReferenceCountWithBundled } = useStorage()
+const referenceCount = getReferenceCountWithBundled()
 </script>
 
 <style scoped>

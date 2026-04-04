@@ -18,18 +18,18 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
-import { useOpenCV } from './composables/useOpenCV.js'
-import AppHeader from './components/AppHeader.vue'
-import Dashboard from './components/Dashboard.vue'
-import ScreenshotScanner from './components/ScreenshotScanner.vue'
-import ReferenceUploader from './components/ReferenceUploader.vue'
-import BadgeList from './components/BadgeList.vue'
-import SettingsPanel from './components/SettingsPanel.vue'
+import { computed, ref } from "vue";
+import AppHeader from "./components/AppHeader.vue";
+import BadgeList from "./components/BadgeList.vue";
+import Dashboard from "./components/Dashboard.vue";
+import ReferenceUploader from "./components/ReferenceUploader.vue";
+import ScreenshotScanner from "./components/ScreenshotScanner.vue";
+import SettingsPanel from "./components/SettingsPanel.vue";
+import { useOpenCV } from "./composables/useOpenCV.js";
 
-const { cvReady, cvLoading } = useOpenCV()
+const { cvReady, cvLoading } = useOpenCV();
 
-const currentTab = ref('dashboard')
+const currentTab = ref("scanner");
 
 const views = {
   dashboard: Dashboard,
@@ -37,9 +37,9 @@ const views = {
   references: ReferenceUploader,
   badges: BadgeList,
   settings: SettingsPanel,
-}
+};
 
-const currentView = computed(() => views[currentTab.value] || Dashboard)
+const currentView = computed(() => views[currentTab.value] || Dashboard);
 </script>
 
 <style scoped>

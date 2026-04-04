@@ -6,7 +6,7 @@
     <section class="setting-section card" style="padding: 20px">
       <h3>🎯 Match Threshold</h3>
       <p class="text-sm text-muted" style="margin: 8px 0">
-        Controls how strict the template matching is. Lower values find more matches but may include false positives.
+        Controls how strict the template matching is. Lower values (e.g. &lt; 80%) find more matches but may include false positives on generic backgrounds.
       </p>
       <div class="threshold-control">
         <input
