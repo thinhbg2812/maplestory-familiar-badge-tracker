@@ -106,22 +106,21 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useStorage } from '../composables/useStorage.js'
-import { badges } from '../data/badges.js'
+import { useStorage } from '../composables/useStorage'
+import { badges } from '../data/badges'
 
 const {
   getReferenceImage,
   setReferenceImage,
   removeReferenceImage,
-  getAllReferenceImages,
   getAllReferenceImagesWithBundled,
 } = useStorage()
 
 const search = ref('')
 const filter = ref('all')
-const openGroups = ref({})
+const openGroups = ref<Record<string, boolean>>({})
 
 const filters = [
   { value: 'all', label: 'All' },
@@ -155,37 +154,38 @@ const filteredBadges = computed(() => {
   })
 })
 
-function getUploadedInBadge(badge) {
+function getUploadedInBadge(badge: typeof badges[number]): number {
   const refs = getAllReferenceImagesWithBundled()
   return badge.familiars.filter((f) => refs[f.id]).length
 }
 
-function toggleGroup(badgeId) {
+function toggleGroup(badgeId: string): void {
   openGroups.value[badgeId] = !openGroups.value[badgeId]
 }
 
-function handleUpload(event, familiarId) {
-  const file = event.target.files?.[0]
+function handleUpload(event: Event, familiarId: string): void {
+  const target = event.target as HTMLInputElement
+  const file = target.files?.[0]
   if (!file) return
 
   const reader = new FileReader()
   reader.onload = (ev) => {
     // Resize to MAX 64x64 to keep localStorage lean
-    resizeImage(ev.target.result, 64, 64).then((resized) => {
+    resizeImage((ev.target as FileReader).result as string, 64, 64).then((resized) => {
       setReferenceImage(familiarId, resized)
     })
   }
   reader.readAsDataURL(file)
 
   // Reset input
-  event.target.value = ''
+  target.value = ''
 }
 
-function removeRef(familiarId) {
+function removeRef(familiarId: string): void {
   removeReferenceImage(familiarId)
 }
 
-function resizeImage(dataURL, maxW, maxH) {
+function resizeImage(dataURL: string, maxW: number, maxH: number): Promise<string> {
   return new Promise((resolve) => {
     const img = new Image()
     img.onload = () => {
@@ -201,7 +201,7 @@ function resizeImage(dataURL, maxW, maxH) {
       const canvas = document.createElement('canvas')
       canvas.width = w
       canvas.height = h
-      canvas.getContext('2d').drawImage(img, 0, 0, w, h)
+      canvas.getContext('2d')!.drawImage(img, 0, 0, w, h)
       resolve(canvas.toDataURL('image/png'))
     }
     img.src = dataURL

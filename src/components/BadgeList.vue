@@ -43,9 +43,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useBadgeTracker } from '../composables/useBadgeTracker.js'
+import { useBadgeTracker } from '../composables/useBadgeTracker'
 import BadgeCard from './BadgeCard.vue'
 
 const { badges, filterBadges, completedBadges } = useBadgeTracker()

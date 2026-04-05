@@ -17,21 +17,22 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed, ref } from "vue";
+import type { Component } from "vue";
 import AppHeader from "./components/AppHeader.vue";
 import BadgeList from "./components/BadgeList.vue";
 import Dashboard from "./components/Dashboard.vue";
 import ReferenceUploader from "./components/ReferenceUploader.vue";
 import ScreenshotScanner from "./components/ScreenshotScanner.vue";
 import SettingsPanel from "./components/SettingsPanel.vue";
-import { useOpenCV } from "./composables/useOpenCV.js";
+import { useOpenCV } from "./composables/useOpenCV";
 
 const { cvReady, cvLoading } = useOpenCV();
 
 const currentTab = ref("scanner");
 
-const views = {
+const views: Record<string, Component> = {
   dashboard: Dashboard,
   scanner: ScreenshotScanner,
   references: ReferenceUploader,

@@ -101,7 +101,7 @@
           <div class="result-icon">
             <img
               v-if="getReferenceImage(result.familiarId) || getBundledIcon(result.familiarId)"
-              :src="getReferenceImage(result.familiarId) || getBundledIcon(result.familiarId)"
+              :src="getReferenceImage(result.familiarId) || getBundledIcon(result.familiarId) || undefined"
               alt=""
               class="result-thumb"
             />
@@ -136,59 +136,67 @@
   </div>
 </template>
 
-<script setup>
-import { ref, computed } from 'vue'
-import { useOpenCV } from '../composables/useOpenCV.js'
-import { useStorage } from '../composables/useStorage.js'
-import { useBadgeTracker } from '../composables/useBadgeTracker.js'
-import { badges } from '../data/badges.js'
+<script setup lang="ts">
+import { ref, computed, onMounted } from 'vue'
+import { useOpenCV } from '../composables/useOpenCV'
+import { useStorage } from '../composables/useStorage'
+import { useBadgeTracker } from '../composables/useBadgeTracker'
+import { badges } from '../data/badges'
+import type { ScanResult } from '../types/index'
 
 // Test image (available in public folder)
-let testImageUrl = '/test-images/test-have-starter.png'
+const testImageUrl = '/test-images/test-have-starter.png'
 
 const { cvReady, cvLoading, cvError, loadOpenCV, scanScreenshot } = useOpenCV()
 const { getAllReferenceImagesWithBundled, getReferenceImage, getReferenceCountWithBundled, getBundledIcon, getSettings } = useStorage()
 const { isCollected, bulkSetCollected } = useBadgeTracker()
 
-const pasteZone = ref(null)
-const previewCanvas = ref(null)
-const screenshotSrc = ref(null)
+const pasteZone = ref<HTMLDivElement | null>(null)
+const previewCanvas = ref<HTMLCanvasElement | null>(null)
+const screenshotSrc = ref<string | null>(null)
 const isDragging = ref(false)
 const scanning = ref(false)
-const scanProgress = ref(null)
-const scanResults = ref(null)
+const scanProgress = ref<string | null>(null)
+const scanResults = ref<ScanResult[] | null>(null)
 const referenceCount = getReferenceCountWithBundled()
+
+onMounted(() => {
+  if (!cvReady.value && !cvLoading.value) {
+    loadOpenCV().catch((err: unknown) => console.error("Failed to auto-load OpenCV", err))
+  }
+})
 const hasTestImage = !!testImageUrl
 
-function loadTestImage() {
+function loadTestImage(): void {
   if (!testImageUrl) return
   screenshotSrc.value = testImageUrl
   scanResults.value = null
   drawPreview(testImageUrl)
 }
 
-function handleFileUpload(e) {
-  const file = e.target.files?.[0]
+function handleFileUpload(e: Event): void {
+  const target = e.target as HTMLInputElement
+  const file = target.files?.[0]
   if (!file) return
   const reader = new FileReader()
   reader.onload = (ev) => {
-    screenshotSrc.value = ev.target.result
+    screenshotSrc.value = (ev.target as FileReader).result as string
     scanResults.value = null
-    drawPreview(ev.target.result)
+    drawPreview((ev.target as FileReader).result as string)
   }
   reader.readAsDataURL(file)
-  e.target.value = ''
+  target.value = ''
 }
 
 // Build a flat lookup: familiarId → name
-const familiarMap = {}
+const familiarMap: Record<string, string> = {}
 for (const b of badges) {
   for (const f of b.familiars) {
     familiarMap[f.id] = f.name
   }
 }
 
-function getFamiliarName(id) {
+function getFamiliarName(id: string): string {
   return familiarMap[id] || id
 }
 
@@ -197,7 +205,7 @@ const newDetectedCount = computed(() => {
   return scanResults.value.filter((r) => !isCollected(r.familiarId)).length
 })
 
-async function initCV() {
+async function initCV(): Promise<void> {
   try {
     await loadOpenCV()
   } catch (e) {
@@ -205,11 +213,11 @@ async function initCV() {
   }
 }
 
-function focusPasteZone() {
+function focusPasteZone(): void {
   pasteZone.value?.focus()
 }
 
-function handlePaste(e) {
+function handlePaste(e: ClipboardEvent): void {
   const items = e.clipboardData?.items
   if (!items) return
 
@@ -217,11 +225,12 @@ function handlePaste(e) {
     if (item.type.startsWith('image/')) {
       e.preventDefault()
       const blob = item.getAsFile()
+      if (!blob) return
       const reader = new FileReader()
       reader.onload = (ev) => {
-        screenshotSrc.value = ev.target.result
+        screenshotSrc.value = (ev.target as FileReader).result as string
         scanResults.value = null
-        drawPreview(ev.target.result)
+        drawPreview((ev.target as FileReader).result as string)
       }
       reader.readAsDataURL(blob)
       return
@@ -229,26 +238,26 @@ function handlePaste(e) {
   }
 }
 
-function drawPreview(dataURL) {
+function drawPreview(dataURL: string): void {
   const img = new Image()
   img.onload = () => {
     const canvas = previewCanvas.value
     if (!canvas) return
     canvas.width = img.naturalWidth
     canvas.height = img.naturalHeight
-    const ctx = canvas.getContext('2d')
+    const ctx = canvas.getContext('2d')!
     ctx.drawImage(img, 0, 0)
   }
   img.src = dataURL
 }
 
-function clearScreenshot() {
+function clearScreenshot(): void {
   screenshotSrc.value = null
   scanResults.value = null
   scanProgress.value = null
 }
 
-async function runScan() {
+async function runScan(): Promise<void> {
   if (!cvReady.value || !previewCanvas.value) return
 
   scanning.value = true
@@ -284,10 +293,10 @@ async function runScan() {
   }
 }
 
-function drawMatchRects(results) {
+function drawMatchRects(results: ScanResult[]): void {
   const canvas = previewCanvas.value
   if (!canvas) return
-  const ctx = canvas.getContext('2d')
+  const ctx = canvas.getContext('2d')!
 
   // Redraw original image first
   const img = new Image()
@@ -317,10 +326,10 @@ function drawMatchRects(results) {
       }
     }
   }
-  img.src = screenshotSrc.value
+  img.src = screenshotSrc.value!
 }
 
-function markAllDetected() {
+function markAllDetected(): void {
   if (!scanResults.value) return
   const ids = scanResults.value
     .filter((r) => !isCollected(r.familiarId))

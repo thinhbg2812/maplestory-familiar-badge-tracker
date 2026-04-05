@@ -1,0 +1,23 @@
+import type { Ref } from "vue";
+import type { Settings, StorageState } from "../types/index";
+export declare function useStorage(): {
+    state: Ref<StorageState, StorageState>;
+    isCollected: (familiarId: string) => boolean;
+    setCollected: (familiarId: string, value?: boolean) => void;
+    toggleCollected: (familiarId: string) => void;
+    bulkSetCollected: (familiarIds: string[]) => void;
+    getReferenceImage: (familiarId: string) => string | null;
+    setReferenceImage: (familiarId: string, dataURL: string) => void;
+    removeReferenceImage: (familiarId: string) => void;
+    getAllReferenceImages: () => Record<string, string>;
+    getAllReferenceImagesWithBundled: () => Record<string, string>;
+    getReferenceCount: () => number;
+    getReferenceCountWithBundled: () => number;
+    hasBundledIcon: (familiarId: string) => boolean;
+    getBundledIcon: (familiarId: string) => string | null;
+    getSettings: () => Settings;
+    updateSettings: (patch: Partial<Settings>) => void;
+    exportData: () => string;
+    importData: (json: string) => boolean;
+    clearAll: () => void;
+};

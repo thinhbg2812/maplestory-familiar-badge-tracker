@@ -42,16 +42,24 @@
   </header>
 </template>
 
-<script setup>
-defineProps({
-  currentTab: { type: String, required: true },
-  cvReady: { type: Boolean, default: false },
-  cvLoading: { type: Boolean, default: false },
-})
+<script setup lang="ts">
+defineProps<{
+  currentTab: string
+  cvReady?: boolean
+  cvLoading?: boolean
+}>()
 
-defineEmits(['navigate'])
+defineEmits<{
+  navigate: [id: string]
+}>()
 
-const tabs = [
+interface Tab {
+  id: string
+  icon: string
+  label: string
+}
+
+const tabs: Tab[] = [
   { id: 'dashboard', icon: '📊', label: 'Dashboard' },
   { id: 'scanner', icon: '🔍', label: 'Scanner' },
   { id: 'references', icon: '🖼️', label: 'References' },

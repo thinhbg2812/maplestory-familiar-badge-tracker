@@ -106,10 +106,10 @@
   </div>
 </template>
 
-<script setup>
-import { useBadgeTracker } from '../composables/useBadgeTracker.js'
-import { useStorage } from '../composables/useStorage.js'
-import { statCaps } from '../data/badges.js'
+<script setup lang="ts">
+import { useBadgeTracker } from '../composables/useBadgeTracker'
+import { useStorage } from '../composables/useStorage'
+import { statCaps } from '../data/badges'
 
 const {
   badges,

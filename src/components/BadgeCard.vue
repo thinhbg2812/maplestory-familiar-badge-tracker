@@ -55,13 +55,14 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useBadgeTracker } from '../composables/useBadgeTracker.js'
+import { useBadgeTracker } from '../composables/useBadgeTracker'
+import type { Badge } from '../types/index'
 
-const props = defineProps({
-  badge: { type: Object, required: true },
-})
+const props = defineProps<{
+  badge: Badge
+}>()
 
 const { badgeProgress, isCollected, toggleCollected } = useBadgeTracker()
 const expanded = ref(false)
