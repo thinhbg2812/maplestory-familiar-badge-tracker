@@ -120,7 +120,7 @@ export function useStorage() {
   /* ── Settings ────────────────────────────────────────────────── */
   function getSettings() {
     return {
-      threshold: 0.85,
+      threshold: 0.88,
       ...state.value.settings,
     }
   }
