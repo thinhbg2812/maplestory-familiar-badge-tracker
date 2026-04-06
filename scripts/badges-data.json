@@ -1,0 +1,3532 @@
+[
+  {
+    "name": "Starter Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/2/2f/FamiliarBadge_Starter_Badge.png",
+    "effects": "Max HP: +5",
+    "familiars": [
+      {
+        "name": "Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/63/Use_Snail_Familiar.png",
+        "alt": "Use Snail Familiar",
+        "localPath": "../assets/icons/starter/Snail_Familiar.png"
+      },
+      {
+        "name": "Blue Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/26/Use_Blue_Snail_Familiar.png",
+        "alt": "Use Blue Snail Familiar",
+        "localPath": "../assets/icons/starter/Blue_Snail_Familiar.png"
+      },
+      {
+        "name": "Spore",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/56/Use_Spore_Familiar.png",
+        "alt": "Use Spore Familiar",
+        "localPath": "../assets/icons/starter/Spore_Familiar.png"
+      },
+      {
+        "name": "Red Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Red_Snail_Familiar.png",
+        "alt": "Use Red Snail Familiar",
+        "localPath": "../assets/icons/starter/Red_Snail_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/starter/_badge_icon.png"
+  },
+  {
+    "name": "Snowflake Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/3/31/FamiliarBadge_Snowflake_Badge.png",
+    "effects": "Max HP: +5",
+    "familiars": [
+      {
+        "name": "Muru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/27/Use_Muru_Familiar.png",
+        "alt": "Use Muru Familiar",
+        "localPath": "../assets/icons/snowflake/Muru_Familiar.png"
+      },
+      {
+        "name": "Murupa",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/34/Use_Murupa_Familiar.png",
+        "alt": "Use Murupa Familiar",
+        "localPath": "../assets/icons/snowflake/Murupa_Familiar.png"
+      },
+      {
+        "name": "Murupia",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Murupia_Familiar.png",
+        "alt": "Use Murupia Familiar",
+        "localPath": "../assets/icons/snowflake/Murupia_Familiar.png"
+      },
+      {
+        "name": "Murumuru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/22/Use_Murumuru_Familiar.png",
+        "alt": "Use Murumuru Familiar",
+        "localPath": "../assets/icons/snowflake/Murumuru_Familiar.png"
+      },
+      {
+        "name": "Murukun",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ad/Use_Murukun_Familiar.png",
+        "alt": "Use Murukun Familiar",
+        "localPath": "../assets/icons/snowflake/Murukun_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/snowflake/_badge_icon.png"
+  },
+  {
+    "name": "Oppressor Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/4/47/FamiliarBadge_Oppressor_Badge.png",
+    "effects": "Max HP: +5",
+    "familiars": [
+      {
+        "name": "Potted Sprout",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Potted_Sprout_Familiar.png",
+        "alt": "Use Potted Sprout Familiar",
+        "localPath": "../assets/icons/oppressor/Potted_Sprout_Familiar.png"
+      },
+      {
+        "name": "Potted Morning Glory",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7a/Use_Potted_Morning_Glory_Familiar.png",
+        "alt": "Use Potted Morning Glory Familiar",
+        "localPath": "../assets/icons/oppressor/Potted_Morning_Glory_Familiar.png"
+      },
+      {
+        "name": "Grape Juice Bottle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a3/Use_Grape_Juice_Bottle_Familiar.png",
+        "alt": "Use Grape Juice Bottle Familiar",
+        "localPath": "../assets/icons/oppressor/Grape_Juice_Bottle_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/oppressor/_badge_icon.png"
+  },
+  {
+    "name": "Shadow Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/c/cf/FamiliarBadge_Shadow_Badge.png",
+    "effects": "LUK: +2",
+    "familiars": [
+      {
+        "name": "Octopus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Octopus_Familiar.png",
+        "alt": "Use Octopus Familiar",
+        "localPath": "../assets/icons/shadow/Octopus_Familiar.png"
+      },
+      {
+        "name": "Stirge",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/74/Use_Stirge_Familiar.png",
+        "alt": "Use Stirge Familiar",
+        "localPath": "../assets/icons/shadow/Stirge_Familiar.png"
+      },
+      {
+        "name": "Jr. Wraith",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Jr._Wraith_Familiar.png",
+        "alt": "Use Jr. Wraith Familiar",
+        "localPath": "../assets/icons/shadow/Jr_Wraith_Familiar.png"
+      },
+      {
+        "name": "Wraith",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6a/Use_Wraith_Familiar.png",
+        "alt": "Use Wraith Familiar",
+        "localPath": "../assets/icons/shadow/Wraith_Familiar.png"
+      },
+      {
+        "name": "Shade",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/de/Use_Shade_Familiar.png",
+        "alt": "Use Shade Familiar",
+        "localPath": "../assets/icons/shadow/Shade_Familiar.png"
+      },
+      {
+        "name": "Jr. Necki",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6f/Use_Jr._Necki_Familiar.png",
+        "alt": "Use Jr. Necki Familiar",
+        "localPath": "../assets/icons/shadow/Jr_Necki_Familiar.png"
+      },
+      {
+        "name": "Ligator",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b3/Use_Ligator_Familiar.png",
+        "alt": "Use Ligator Familiar",
+        "localPath": "../assets/icons/shadow/Ligator_Familiar.png"
+      },
+      {
+        "name": "Croco",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e3/Use_Croco_Familiar.png",
+        "alt": "Use Croco Familiar",
+        "localPath": "../assets/icons/shadow/Croco_Familiar.png"
+      },
+      {
+        "name": "Muddy Swamp Monster",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Muddy_Swamp_Monster_Familiar.png",
+        "alt": "Use Muddy Swamp Monster Familiar",
+        "localPath": "../assets/icons/shadow/Muddy_Swamp_Monster_Familiar.png"
+      },
+      {
+        "name": "Dyle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a0/Use_Dyle_Familiar.png",
+        "alt": "Use Dyle Familiar",
+        "localPath": "../assets/icons/shadow/Dyle_Familiar.png"
+      },
+      {
+        "name": "King Slime",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1d/Use_King_Slime_Familiar.png",
+        "alt": "Use King Slime Familiar",
+        "localPath": "../assets/icons/shadow/King_Slime_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/shadow/_badge_icon.png"
+  },
+  {
+    "name": "Magical Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/0/08/FamiliarBadge_Magical_Badge.png",
+    "effects": "INT: +2",
+    "familiars": [
+      {
+        "name": "Slime",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c0/Use_Slime_Familiar.png",
+        "alt": "Use Slime Familiar",
+        "localPath": "../assets/icons/magical/Slime_Familiar.png"
+      },
+      {
+        "name": "Bubbling",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9e/Use_Bubbling_Familiar.png",
+        "alt": "Use Bubbling Familiar",
+        "localPath": "../assets/icons/magical/Bubbling_Familiar.png"
+      },
+      {
+        "name": "Strange Pig",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4d/Use_Strange_Pig_Familiar.png",
+        "alt": "Use Strange Pig Familiar",
+        "localPath": "../assets/icons/magical/Strange_Pig_Familiar.png"
+      },
+      {
+        "name": "Fairy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9e/Use_Fairy_Familiar.png",
+        "alt": "Use Fairy Familiar",
+        "localPath": "../assets/icons/magical/Fairy_Familiar.png"
+      },
+      {
+        "name": "Royal Fairy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ab/Use_Royal_Fairy_Familiar.png",
+        "alt": "Use Royal Fairy Familiar",
+        "localPath": "../assets/icons/magical/Royal_Fairy_Familiar.png"
+      },
+      {
+        "name": "Evil Eye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cf/Use_Evil_Eye_Familiar.png",
+        "alt": "Use Evil Eye Familiar",
+        "localPath": "../assets/icons/magical/Evil_Eye_Familiar.png"
+      },
+      {
+        "name": "Curse Eye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b0/Use_Curse_Eye_Familiar.png",
+        "alt": "Use Curse Eye Familiar",
+        "localPath": "../assets/icons/magical/Curse_Eye_Familiar.png"
+      },
+      {
+        "name": "Cold Eye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e7/Use_Cold_Eye_Familiar.png",
+        "alt": "Use Cold Eye Familiar",
+        "localPath": "../assets/icons/magical/Cold_Eye_Familiar.png"
+      },
+      {
+        "name": "Surgeon Eye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Surgeon_Eye_Familiar.png",
+        "alt": "Use Surgeon Eye Familiar",
+        "localPath": "../assets/icons/magical/Surgeon_Eye_Familiar.png"
+      },
+      {
+        "name": "Lupin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Lupin_Familiar.png",
+        "alt": "Use Lupin Familiar",
+        "localPath": "../assets/icons/magical/Lupin_Familiar.png"
+      },
+      {
+        "name": "Zombie Lupin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ad/Use_Zombie_Lupin_Familiar.png",
+        "alt": "Use Zombie Lupin Familiar",
+        "localPath": "../assets/icons/magical/Zombie_Lupin_Familiar.png"
+      },
+      {
+        "name": "Malady",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/92/Use_Malady_Familiar.png",
+        "alt": "Use Malady Familiar",
+        "localPath": "../assets/icons/magical/Malady_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/magical/_badge_icon.png"
+  },
+  {
+    "name": "Secret Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/d/d2/FamiliarBadge_Secret_Badge.png",
+    "effects": "Weapon Attack: +1Defense: +5",
+    "familiars": [
+      {
+        "name": "Copper Drake",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9f/Use_Copper_Drake_Familiar.png",
+        "alt": "Use Copper Drake Familiar",
+        "localPath": "../assets/icons/secret/Copper_Drake_Familiar.png"
+      },
+      {
+        "name": "Drake",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/19/Use_Drake_Familiar.png",
+        "alt": "Use Drake Familiar",
+        "localPath": "../assets/icons/secret/Drake_Familiar.png"
+      },
+      {
+        "name": "Red Drake",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8b/Use_Red_Drake_Familiar.png",
+        "alt": "Use Red Drake Familiar",
+        "localPath": "../assets/icons/secret/Red_Drake_Familiar.png"
+      },
+      {
+        "name": "Ice Drake",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Ice_Drake_Familiar.png",
+        "alt": "Use Ice Drake Familiar",
+        "localPath": "../assets/icons/secret/Ice_Drake_Familiar.png"
+      },
+      {
+        "name": "Dark Drake",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7f/Use_Dark_Drake_Familiar.png",
+        "alt": "Use Dark Drake Familiar",
+        "localPath": "../assets/icons/secret/Dark_Drake_Familiar.png"
+      },
+      {
+        "name": "Wild Kargo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cb/Use_Wild_Kargo_Familiar.png",
+        "alt": "Use Wild Kargo Familiar",
+        "localPath": "../assets/icons/secret/Wild_Kargo_Familiar.png"
+      },
+      {
+        "name": "Tauromacis",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/05/Use_Tauromacis_Familiar.png",
+        "alt": "Use Tauromacis Familiar",
+        "localPath": "../assets/icons/secret/Tauromacis_Familiar.png"
+      },
+      {
+        "name": "Taurospear",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/65/Use_Taurospear_Familiar.png",
+        "alt": "Use Taurospear Familiar",
+        "localPath": "../assets/icons/secret/Taurospear_Familiar.png"
+      },
+      {
+        "name": "Jr. Balrog",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fd/Use_Jr._Balrog_Familiar.png",
+        "alt": "Use Jr. Balrog Familiar",
+        "localPath": "../assets/icons/secret/Jr_Balrog_Familiar.png"
+      },
+      {
+        "name": "Snack Bar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/00/Use_Snack_Bar_Familiar.png",
+        "alt": "Use Snack Bar Familiar",
+        "localPath": "../assets/icons/secret/Snack_Bar_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/secret/_badge_icon.png"
+  },
+  {
+    "name": "Mesa Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/78/FamiliarBadge_Mesa_Badge.png",
+    "effects": "STR: +2",
+    "familiars": [
+      {
+        "name": "Jr. Boogie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5b/Use_Jr._Boogie_Familiar.png",
+        "alt": "Use Jr. Boogie Familiar",
+        "localPath": "../assets/icons/mesa/Jr_Boogie_Familiar.png"
+      },
+      {
+        "name": "Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/40/Use_Stump_Familiar.png",
+        "alt": "Use Stump Familiar",
+        "localPath": "../assets/icons/mesa/Stump_Familiar.png"
+      },
+      {
+        "name": "Dark Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/da/Use_Dark_Stump_Familiar.png",
+        "alt": "Use Dark Stump Familiar",
+        "localPath": "../assets/icons/mesa/Dark_Stump_Familiar.png"
+      },
+      {
+        "name": "Axe Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b0/Use_Axe_Stump_Familiar.png",
+        "alt": "Use Axe Stump Familiar",
+        "localPath": "../assets/icons/mesa/Axe_Stump_Familiar.png"
+      },
+      {
+        "name": "Dark Axe Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Dark_Axe_Stump_Familiar.png",
+        "alt": "Use Dark Axe Stump Familiar",
+        "localPath": "../assets/icons/mesa/Dark_Axe_Stump_Familiar.png"
+      },
+      {
+        "name": "Ghost Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ef/Use_Ghost_Stump_Familiar.png",
+        "alt": "Use Ghost Stump Familiar",
+        "localPath": "../assets/icons/mesa/Ghost_Stump_Familiar.png"
+      },
+      {
+        "name": "Smirking Ghost Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Smirking_Ghost_Stump_Familiar.png",
+        "alt": "Use Smirking Ghost Stump Familiar",
+        "localPath": "../assets/icons/mesa/Smirking_Ghost_Stump_Familiar.png"
+      },
+      {
+        "name": "Stumpy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/26/Use_Stumpy_Familiar.png",
+        "alt": "Use Stumpy Familiar",
+        "localPath": "../assets/icons/mesa/Stumpy_Familiar.png"
+      },
+      {
+        "name": "Wild Boar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2c/Use_Wild_Boar_Familiar.png",
+        "alt": "Use Wild Boar Familiar",
+        "localPath": "../assets/icons/mesa/Wild_Boar_Familiar.png"
+      },
+      {
+        "name": "Terrified Wild Boar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5f/Use_Terrified_Wild_Boar_Familiar.png",
+        "alt": "Use Terrified Wild Boar Familiar",
+        "localPath": "../assets/icons/mesa/Terrified_Wild_Boar_Familiar.png"
+      },
+      {
+        "name": "Stump",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/93/Use_Iron_Hog_Familiar.png",
+        "alt": "Use Iron Hog Familiar",
+        "localPath": "../assets/icons/mesa/Stump_Familiar.png"
+      },
+      {
+        "name": "Iron Boar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f5/Use_Iron_Boar_Familiar.png",
+        "alt": "Use Iron Boar Familiar",
+        "localPath": "../assets/icons/mesa/Iron_Boar_Familiar.png"
+      },
+      {
+        "name": "Fire Boar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/98/Use_Fire_Boar_Familiar.png",
+        "alt": "Use Fire Boar Familiar",
+        "localPath": "../assets/icons/mesa/Fire_Boar_Familiar.png"
+      },
+      {
+        "name": "Wooden Mask",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d6/Use_Wooden_Mask_Familiar.png",
+        "alt": "Use Wooden Mask Familiar",
+        "localPath": "../assets/icons/mesa/Wooden_Mask_Familiar.png"
+      },
+      {
+        "name": "Rocky Mask",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/69/Use_Rocky_Mask_Familiar.png",
+        "alt": "Use Rocky Mask Familiar",
+        "localPath": "../assets/icons/mesa/Rocky_Mask_Familiar.png"
+      },
+      {
+        "name": "Skeledog",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Skeledog_Familiar.png",
+        "alt": "Use Skeledog Familiar",
+        "localPath": "../assets/icons/mesa/Skeledog_Familiar.png"
+      },
+      {
+        "name": "Mummydog",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bc/Use_Mummydog_Familiar.png",
+        "alt": "Use Mummydog Familiar",
+        "localPath": "../assets/icons/mesa/Mummydog_Familiar.png"
+      },
+      {
+        "name": "Skeleton Soldier",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/71/Use_Skeleton_Soldier_Familiar.png",
+        "alt": "Use Skeleton Soldier Familiar",
+        "localPath": "../assets/icons/mesa/Skeleton_Soldier_Familiar.png"
+      },
+      {
+        "name": "Skeleton Officer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8f/Use_Skeleton_Officer_Familiar.png",
+        "alt": "Use Skeleton Officer Familiar",
+        "localPath": "../assets/icons/mesa/Skeleton_Officer_Familiar.png"
+      },
+      {
+        "name": "Skeleton Commander",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0f/Use_Skeleton_Commander_Familiar.png",
+        "alt": "Use Skeleton Commander Familiar",
+        "localPath": "../assets/icons/mesa/Skeleton_Commander_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/mesa/_badge_icon.png"
+  },
+  {
+    "name": "Peaceful Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/b/bb/FamiliarBadge_Peaceful_Badge.png",
+    "effects": "DEX: +2",
+    "familiars": [
+      {
+        "name": "Orange Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2b/Use_Orange_Mushroom_Familiar.png",
+        "alt": "Use Orange Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Orange_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Green Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/35/Use_Green_Mushroom_Familiar.png",
+        "alt": "Use Green Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Green_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Cynical Orange Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/eb/Use_Cynical_Orange_Mushroom_Familiar.png",
+        "alt": "Use Cynical Orange Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Cynical_Orange_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Horny Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Horny_Mushroom_Familiar.png",
+        "alt": "Use Horny Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Horny_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Blue Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/37/Use_Blue_Mushroom_Familiar.png",
+        "alt": "Use Blue Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Blue_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Crying Blue Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3f/Use_Crying_Blue_Mushroom_Familiar.png",
+        "alt": "Use Crying Blue Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Crying_Blue_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Stone Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Stone_Golem_Familiar.png",
+        "alt": "Use Stone Golem Familiar",
+        "localPath": "../assets/icons/peaceful/Stone_Golem_Familiar.png"
+      },
+      {
+        "name": "Dark Stone Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ec/Use_Dark_Stone_Golem_Familiar.png",
+        "alt": "Use Dark Stone Golem Familiar",
+        "localPath": "../assets/icons/peaceful/Dark_Stone_Golem_Familiar.png"
+      },
+      {
+        "name": "Mixed Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2e/Use_Mixed_Golem_Familiar.png",
+        "alt": "Use Mixed Golem Familiar",
+        "localPath": "../assets/icons/peaceful/Mixed_Golem_Familiar.png"
+      },
+      {
+        "name": "Mushmom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/Use_Mushmom_Familiar.png",
+        "alt": "Use Mushmom Familiar",
+        "localPath": "../assets/icons/peaceful/Mushmom_Familiar.png"
+      },
+      {
+        "name": "Blue Mushmom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/44/Use_Blue_Mushmom_Familiar.png",
+        "alt": "Use Blue Mushmom Familiar",
+        "localPath": "../assets/icons/peaceful/Blue_Mushmom_Familiar.png"
+      },
+      {
+        "name": "Zombie Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e9/Use_Zombie_Mushroom_Familiar.png",
+        "alt": "Use Zombie Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Zombie_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Annoyed Zombie Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f8/Use_Annoyed_Zombie_Mushroom_Familiar.png",
+        "alt": "Use Annoyed Zombie Mushroom Familiar",
+        "localPath": "../assets/icons/peaceful/Annoyed_Zombie_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Zombie Mushmom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/23/Use_Zombie_Mushmom_Familiar.png",
+        "alt": "Use Zombie Mushmom Familiar",
+        "localPath": "../assets/icons/peaceful/Zombie_Mushmom_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/peaceful/_badge_icon.png"
+  },
+  {
+    "name": "Beach Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/71/FamiliarBadge_Beach_Badge.png",
+    "effects": "Speed: +1Magic Attack: +1%",
+    "familiars": [
+      {
+        "name": "Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/63/Use_Snail_Familiar.png",
+        "alt": "Use Snail Familiar",
+        "localPath": "../assets/icons/beach/Snail_Familiar.png"
+      },
+      {
+        "name": "Muru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/27/Use_Muru_Familiar.png",
+        "alt": "Use Muru Familiar",
+        "localPath": "../assets/icons/beach/Muru_Familiar.png"
+      },
+      {
+        "name": "Blue Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/26/Use_Blue_Snail_Familiar.png",
+        "alt": "Use Blue Snail Familiar",
+        "localPath": "../assets/icons/beach/Blue_Snail_Familiar.png"
+      },
+      {
+        "name": "Spore",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/56/Use_Spore_Familiar.png",
+        "alt": "Use Spore Familiar",
+        "localPath": "../assets/icons/beach/Spore_Familiar.png"
+      },
+      {
+        "name": "Murupa",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/34/Use_Murupa_Familiar.png",
+        "alt": "Use Murupa Familiar",
+        "localPath": "../assets/icons/beach/Murupa_Familiar.png"
+      },
+      {
+        "name": "Red Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Red_Snail_Familiar.png",
+        "alt": "Use Red Snail Familiar",
+        "localPath": "../assets/icons/beach/Red_Snail_Familiar.png"
+      },
+      {
+        "name": "Murupia",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Murupia_Familiar.png",
+        "alt": "Use Murupia Familiar",
+        "localPath": "../assets/icons/beach/Murupia_Familiar.png"
+      },
+      {
+        "name": "Pig",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9e/Use_Pig_Familiar.png",
+        "alt": "Use Pig Familiar",
+        "localPath": "../assets/icons/beach/Pig_Familiar.png"
+      },
+      {
+        "name": "Murumuru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/22/Use_Murumuru_Familiar.png",
+        "alt": "Use Murumuru Familiar",
+        "localPath": "../assets/icons/beach/Murumuru_Familiar.png"
+      },
+      {
+        "name": "Murukun",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ad/Use_Murukun_Familiar.png",
+        "alt": "Use Murukun Familiar",
+        "localPath": "../assets/icons/beach/Murukun_Familiar.png"
+      },
+      {
+        "name": "Ribbon Pig",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Ribbon_Pig_Familiar.png",
+        "alt": "Use Ribbon Pig Familiar",
+        "localPath": "../assets/icons/beach/Ribbon_Pig_Familiar.png"
+      },
+      {
+        "name": "Mano",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Mano_Familiar.png",
+        "alt": "Use Mano Familiar",
+        "localPath": "../assets/icons/beach/Mano_Familiar.png"
+      },
+      {
+        "name": "Blue Ribbon Pig",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/77/Use_Blue_Ribbon_Pig_Familiar.png",
+        "alt": "Use Blue Ribbon Pig Familiar",
+        "localPath": "../assets/icons/beach/Blue_Ribbon_Pig_Familiar.png"
+      },
+      {
+        "name": "Lorang",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/10/Use_Lorang_Familiar.png",
+        "alt": "Use Lorang Familiar",
+        "localPath": "../assets/icons/beach/Lorang_Familiar.png"
+      },
+      {
+        "name": "Clang",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/97/Use_Clang_Familiar.png",
+        "alt": "Use Clang Familiar",
+        "localPath": "../assets/icons/beach/Clang_Familiar.png"
+      },
+      {
+        "name": "Tortie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8a/Use_Tortie_Familiar.png",
+        "alt": "Use Tortie Familiar",
+        "localPath": "../assets/icons/beach/Tortie_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/beach/_badge_icon.png"
+  },
+  {
+    "name": "Rebel Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/72/FamiliarBadge_Rebel_Badge.png",
+    "effects": "Critical Rate: +1%",
+    "familiars": [
+      {
+        "name": "Potted Sprout",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Potted_Sprout_Familiar.png",
+        "alt": "Use Potted Sprout Familiar",
+        "localPath": "../assets/icons/rebel/Potted_Sprout_Familiar.png"
+      },
+      {
+        "name": "Potted Morning Glory",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7a/Use_Potted_Morning_Glory_Familiar.png",
+        "alt": "Use Potted Morning Glory Familiar",
+        "localPath": "../assets/icons/rebel/Potted_Morning_Glory_Familiar.png"
+      },
+      {
+        "name": "Grape Juice Bottle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a3/Use_Grape_Juice_Bottle_Familiar.png",
+        "alt": "Use Grape Juice Bottle Familiar",
+        "localPath": "../assets/icons/rebel/Grape_Juice_Bottle_Familiar.png"
+      },
+      {
+        "name": "Patrol Robot",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7f/Use_Patrol_Robot_Familiar.png",
+        "alt": "Use Patrol Robot Familiar",
+        "localPath": "../assets/icons/rebel/Patrol_Robot_Familiar.png"
+      },
+      {
+        "name": "Strange Sign",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/73/Use_Strange_Sign_Familiar.png",
+        "alt": "Use Strange Sign Familiar",
+        "localPath": "../assets/icons/rebel/Strange_Sign_Familiar.png"
+      },
+      {
+        "name": "Serpent",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3c/Use_Serpent_Familiar.png",
+        "alt": "Use Serpent Familiar",
+        "localPath": "../assets/icons/rebel/Serpent_Familiar.png"
+      },
+      {
+        "name": "Water Thief Monster",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3e/Use_Water_Thief_Monster_Familiar.png",
+        "alt": "Use Water Thief Monster Familiar",
+        "localPath": "../assets/icons/rebel/Water_Thief_Monster_Familiar.png"
+      },
+      {
+        "name": "Dust Box",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8a/Use_Dust_Box_Familiar.png",
+        "alt": "Use Dust Box Familiar",
+        "localPath": "../assets/icons/rebel/Dust_Box_Familiar.png"
+      },
+      {
+        "name": "Streetlight",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1f/Use_Streetlight_Familiar.png",
+        "alt": "Use Streetlight Familiar",
+        "localPath": "../assets/icons/rebel/Streetlight_Familiar.png"
+      },
+      {
+        "name": "Patrol Robot S",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dc/Use_Patrol_Robot_S_Familiar.png",
+        "alt": "Use Patrol Robot S Familiar",
+        "localPath": "../assets/icons/rebel/Patrol_Robot_S_Familiar.png"
+      },
+      {
+        "name": "Safety First",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/24/Use_Safety_First_Familiar.png",
+        "alt": "Use Safety First Familiar",
+        "localPath": "../assets/icons/rebel/Safety_First_Familiar.png"
+      },
+      {
+        "name": "Baby Boulder Muncher",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/52/Use_Baby_Boulder_Muncher_Familiar.png",
+        "alt": "Use Baby Boulder Muncher Familiar",
+        "localPath": "../assets/icons/rebel/Baby_Boulder_Muncher_Familiar.png"
+      },
+      {
+        "name": "Big Boulder Muncher",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f9/Use_Big_Boulder_Muncher_Familiar.png",
+        "alt": "Use Big Boulder Muncher Familiar",
+        "localPath": "../assets/icons/rebel/Big_Boulder_Muncher_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/rebel/_badge_icon.png"
+  },
+  {
+    "name": "Mineral Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/73/FamiliarBadge_Mineral_Badge.png",
+    "effects": "Defense: +5Ignored Enemy Defense: +3%",
+    "familiars": [
+      {
+        "name": "Guard Robot",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a6/Use_Guard_Robot_Familiar.png",
+        "alt": "Use Guard Robot Familiar",
+        "localPath": "../assets/icons/mineral/Guard_Robot_Familiar.png"
+      },
+      {
+        "name": "Racoco",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/05/Use_Racoco_Familiar.png",
+        "alt": "Use Racoco Familiar",
+        "localPath": "../assets/icons/mineral/Racoco_Familiar.png"
+      },
+      {
+        "name": "Big Spider",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/86/Use_Big_Spider_Familiar.png",
+        "alt": "Use Big Spider Familiar",
+        "localPath": "../assets/icons/mineral/Big_Spider_Familiar.png"
+      },
+      {
+        "name": "Cart Bear",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/07/Use_Cart_Bear_Familiar.png",
+        "alt": "Use Cart Bear Familiar",
+        "localPath": "../assets/icons/mineral/Cart_Bear_Familiar.png"
+      },
+      {
+        "name": "Racaroni",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a6/Use_Racaroni_Familiar.png",
+        "alt": "Use Racaroni Familiar",
+        "localPath": "../assets/icons/mineral/Racaroni_Familiar.png"
+      },
+      {
+        "name": "Raco",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ec/Use_Raco_Familiar.png",
+        "alt": "Use Raco Familiar",
+        "localPath": "../assets/icons/mineral/Raco_Familiar.png"
+      },
+      {
+        "name": "Guard Robot L",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/96/Use_Guard_Robot_L_Familiar.png",
+        "alt": "Use Guard Robot L Familiar",
+        "localPath": "../assets/icons/mineral/Guard_Robot_L_Familiar.png"
+      },
+      {
+        "name": "Security System",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Security_System_Familiar.png",
+        "alt": "Use Security System Familiar",
+        "localPath": "../assets/icons/mineral/Security_System_Familiar.png"
+      },
+      {
+        "name": "Enhanced Security System",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Enhanced_Security_System_Familiar.png",
+        "alt": "Use Enhanced Security System Familiar",
+        "localPath": "../assets/icons/mineral/Enhanced_Security_System_Familiar.png"
+      },
+      {
+        "name": "AF Android",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8e/Use_AF_Android_Familiar.png",
+        "alt": "Use AF Android Familiar",
+        "localPath": "../assets/icons/mineral/AF_Android_Familiar.png"
+      },
+      {
+        "name": "Broken DF Android",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/33/Use_Broken_DF_Android_Familiar.png",
+        "alt": "Use Broken DF Android Familiar",
+        "localPath": "../assets/icons/mineral/Broken_DF_Android_Familiar.png"
+      },
+      {
+        "name": "Ore Muncher",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e4/Use_Ore_Muncher_Familiar.png",
+        "alt": "Use Ore Muncher Familiar",
+        "localPath": "../assets/icons/mineral/Ore_Muncher_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/mineral/_badge_icon.png"
+  },
+  {
+    "name": "Sandy Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/b/b2/FamiliarBadge_Sandy_Badge.png",
+    "effects": "Damage: +1%Defense: +5",
+    "familiars": [
+      {
+        "name": "White Hare",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f3/Use_White_Hare_Familiar.png",
+        "alt": "Use White Hare Familiar",
+        "localPath": "../assets/icons/sandy/White_Hare_Familiar.png"
+      },
+      {
+        "name": "Brown Hare",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bb/Use_Brown_Hare_Familiar.png",
+        "alt": "Use Brown Hare Familiar",
+        "localPath": "../assets/icons/sandy/Brown_Hare_Familiar.png"
+      },
+      {
+        "name": "Jr. Cactus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/82/Use_Jr._Cactus_Familiar.png",
+        "alt": "Use Jr. Cactus Familiar",
+        "localPath": "../assets/icons/sandy/Jr_Cactus_Familiar.png"
+      },
+      {
+        "name": "Cactus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fa/Use_Cactus_Familiar.png",
+        "alt": "Use Cactus Familiar",
+        "localPath": "../assets/icons/sandy/Cactus_Familiar.png"
+      },
+      {
+        "name": "Royal Cactus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/16/Use_Royal_Cactus_Familiar.png",
+        "alt": "Use Royal Cactus Familiar",
+        "localPath": "../assets/icons/sandy/Royal_Cactus_Familiar.png"
+      },
+      {
+        "name": "Bellamoa",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/35/Use_Bellamoa_Familiar.png",
+        "alt": "Use Bellamoa Familiar",
+        "localPath": "../assets/icons/sandy/Bellamoa_Familiar.png"
+      },
+      {
+        "name": "Ear Plug Plead",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b1/Use_Ear_Plug_Plead_Familiar.png",
+        "alt": "Use Ear Plug Plead Familiar",
+        "localPath": "../assets/icons/sandy/Ear_Plug_Plead_Familiar.png"
+      },
+      {
+        "name": "Scarf Plead",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Scarf_Plead_Familiar.png",
+        "alt": "Use Scarf Plead Familiar",
+        "localPath": "../assets/icons/sandy/Scarf_Plead_Familiar.png"
+      },
+      {
+        "name": "Meerkat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1f/Use_Meerkat_Familiar.png",
+        "alt": "Use Meerkat Familiar",
+        "localPath": "../assets/icons/sandy/Meerkat_Familiar.png"
+      },
+      {
+        "name": "Kiyo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bf/Use_Kiyo_Familiar.png",
+        "alt": "Use Kiyo Familiar",
+        "localPath": "../assets/icons/sandy/Kiyo_Familiar.png"
+      },
+      {
+        "name": "Scorpion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/30/Use_Scorpion_Familiar.png",
+        "alt": "Use Scorpion Familiar",
+        "localPath": "../assets/icons/sandy/Scorpion_Familiar.png"
+      },
+      {
+        "name": "Sand Dwarf",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/db/Use_Sand_Dwarf_Familiar.png",
+        "alt": "Use Sand Dwarf Familiar",
+        "localPath": "../assets/icons/sandy/Sand_Dwarf_Familiar.png"
+      },
+      {
+        "name": "Dark Sand Dwarf",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f3/Use_Dark_Sand_Dwarf_Familiar.png",
+        "alt": "Use Dark Sand Dwarf Familiar",
+        "localPath": "../assets/icons/sandy/Dark_Sand_Dwarf_Familiar.png"
+      },
+      {
+        "name": "Desert Giant",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a1/Use_Desert_Giant_Familiar.png",
+        "alt": "Use Desert Giant Familiar",
+        "localPath": "../assets/icons/sandy/Desert_Giant_Familiar.png"
+      },
+      {
+        "name": "Deo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Deo_Familiar.png",
+        "alt": "Use Deo Familiar",
+        "localPath": "../assets/icons/sandy/Deo_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/sandy/_badge_icon.png"
+  },
+  {
+    "name": "Machine Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/c/ca/FamiliarBadge_Machine_Badge.png",
+    "effects": "INT: +2Magic Attack: +1",
+    "familiars": [
+      {
+        "name": "Cube Slime",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a2/Use_Cube_Slime_Familiar.png",
+        "alt": "Use Cube Slime Familiar",
+        "localPath": "../assets/icons/machine/Cube_Slime_Familiar.png"
+      },
+      {
+        "name": "Iron Mutae",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/29/Use_Iron_Mutae_Familiar.png",
+        "alt": "Use Iron Mutae Familiar",
+        "localPath": "../assets/icons/machine/Iron_Mutae_Familiar.png"
+      },
+      {
+        "name": "Rumo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/16/Use_Rumo_Familiar.png",
+        "alt": "Use Rumo Familiar",
+        "localPath": "../assets/icons/machine/Rumo_Familiar.png"
+      },
+      {
+        "name": "Reinforced Iron Mutae",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6e/Use_Reinforced_Iron_Mutae_Familiar.png",
+        "alt": "Use Reinforced Iron Mutae Familiar",
+        "localPath": "../assets/icons/machine/Reinforced_Iron_Mutae_Familiar.png"
+      },
+      {
+        "name": "Triple Rumo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7c/Use_Triple_Rumo_Familiar.png",
+        "alt": "Use Triple Rumo Familiar",
+        "localPath": "../assets/icons/machine/Triple_Rumo_Familiar.png"
+      },
+      {
+        "name": "Mithril Mutae",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/52/Use_Mithril_Mutae_Familiar.png",
+        "alt": "Use Mithril Mutae Familiar",
+        "localPath": "../assets/icons/machine/Mithril_Mutae_Familiar.png"
+      },
+      {
+        "name": "Homun",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0a/Use_Homun_Familiar.png",
+        "alt": "Use Homun Familiar",
+        "localPath": "../assets/icons/machine/Homun_Familiar.png"
+      },
+      {
+        "name": "Reinforced Mithril Mutae",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/57/Use_Reinforced_Mithril_Mutae_Familiar.png",
+        "alt": "Use Reinforced Mithril Mutae Familiar",
+        "localPath": "../assets/icons/machine/Reinforced_Mithril_Mutae_Familiar.png"
+      },
+      {
+        "name": "Homunculus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/78/Use_Homunculus_Familiar.png",
+        "alt": "Use Homunculus Familiar",
+        "localPath": "../assets/icons/machine/Homunculus_Familiar.png"
+      },
+      {
+        "name": "Roid",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/18/Use_Roid_Familiar.png",
+        "alt": "Use Roid Familiar",
+        "localPath": "../assets/icons/machine/Roid_Familiar.png"
+      },
+      {
+        "name": "Neo Huroid",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c6/Use_Neo_Huroid_Familiar.png",
+        "alt": "Use Neo Huroid Familiar",
+        "localPath": "../assets/icons/machine/Neo_Huroid_Familiar.png"
+      },
+      {
+        "name": "D. Roy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/15/Use_D._Roy_Familiar.png",
+        "alt": "Use D. Roy Familiar",
+        "localPath": "../assets/icons/machine/D_Roy_Familiar.png"
+      },
+      {
+        "name": "Cube Slime",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1b/Use_Saitie_Familiar.png",
+        "alt": "Use Saitie Familiar",
+        "localPath": "../assets/icons/machine/Cube_Slime_Familiar.png"
+      },
+      {
+        "name": "Rurumo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Rurumo_Familiar.png",
+        "alt": "Use Rurumo Familiar",
+        "localPath": "../assets/icons/machine/Rurumo_Familiar.png"
+      },
+      {
+        "name": "Homunscullo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/83/Use_Homunscullo_Familiar.png",
+        "alt": "Use Homunscullo Familiar",
+        "localPath": "../assets/icons/machine/Homunscullo_Familiar.png"
+      },
+      {
+        "name": "Security Camera",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6a/Use_Security_Camera_Familiar.png",
+        "alt": "Use Security Camera Familiar",
+        "localPath": "../assets/icons/machine/Security_Camera_Familiar.png"
+      },
+      {
+        "name": "Deet and Roi",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/de/Use_Deet_and_Roi_Familiar.png",
+        "alt": "Use Deet and Roi Familiar",
+        "localPath": "../assets/icons/machine/Deet_and_Roi_Familiar.png"
+      },
+      {
+        "name": "Chimera",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/49/Use_Chimera_Familiar.png",
+        "alt": "Use Chimera Familiar",
+        "localPath": "../assets/icons/machine/Chimera_Familiar.png"
+      },
+      {
+        "name": "Frankenroid",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7c/Use_Frankenroid_Familiar.png",
+        "alt": "Use Frankenroid Familiar",
+        "localPath": "../assets/icons/machine/Frankenroid_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/machine/_badge_icon.png"
+  },
+  {
+    "name": "Toy Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/f/f1/FamiliarBadge_Toy_Badge.png",
+    "effects": "Max HP: +10Ignored Enemy Defense: +3%",
+    "familiars": [
+      {
+        "name": "Retz",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Retz_Familiar.png",
+        "alt": "Use Retz Familiar",
+        "localPath": "../assets/icons/toy/Retz_Familiar.png"
+      },
+      {
+        "name": "Ratz",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d5/Use_Ratz_Familiar.png",
+        "alt": "Use Ratz Familiar",
+        "localPath": "../assets/icons/toy/Ratz_Familiar.png"
+      },
+      {
+        "name": "Black Ratz",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4d/Use_Black_Ratz_Familiar.png",
+        "alt": "Use Black Ratz Familiar",
+        "localPath": "../assets/icons/toy/Black_Ratz_Familiar.png"
+      },
+      {
+        "name": "Chirppy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/13/Use_Chirppy_Familiar.png",
+        "alt": "Use Chirppy Familiar",
+        "localPath": "../assets/icons/toy/Chirppy_Familiar.png"
+      },
+      {
+        "name": "Drumming Bunny",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1f/Use_Drumming_Bunny_Familiar.png",
+        "alt": "Use Drumming Bunny Familiar",
+        "localPath": "../assets/icons/toy/Drumming_Bunny_Familiar.png"
+      },
+      {
+        "name": "Propelly",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Propelly_Familiar.png",
+        "alt": "Use Propelly Familiar",
+        "localPath": "../assets/icons/toy/Propelly_Familiar.png"
+      },
+      {
+        "name": "Planey",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2d/Use_Planey_Familiar.png",
+        "alt": "Use Planey Familiar",
+        "localPath": "../assets/icons/toy/Planey_Familiar.png"
+      },
+      {
+        "name": "Tweeter",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ae/Use_Tweeter_Familiar.png",
+        "alt": "Use Tweeter Familiar",
+        "localPath": "../assets/icons/toy/Tweeter_Familiar.png"
+      },
+      {
+        "name": "Bloctopus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Bloctopus_Familiar.png",
+        "alt": "Use Bloctopus Familiar",
+        "localPath": "../assets/icons/toy/Bloctopus_Familiar.png"
+      },
+      {
+        "name": "King Bloctopus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3c/Use_King_Bloctopus_Familiar.png",
+        "alt": "Use King Bloctopus Familiar",
+        "localPath": "../assets/icons/toy/King_Bloctopus_Familiar.png"
+      },
+      {
+        "name": "Block Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Block_Golem_Familiar.png",
+        "alt": "Use Block Golem Familiar",
+        "localPath": "../assets/icons/toy/Block_Golem_Familiar.png"
+      },
+      {
+        "name": "King Block Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1e/Use_King_Block_Golem_Familiar.png",
+        "alt": "Use King Block Golem Familiar",
+        "localPath": "../assets/icons/toy/King_Block_Golem_Familiar.png"
+      },
+      {
+        "name": "Rombot",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cd/Use_Rombot_Familiar.png",
+        "alt": "Use Rombot Familiar",
+        "localPath": "../assets/icons/toy/Rombot_Familiar.png"
+      },
+      {
+        "name": "Brown Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/01/Use_Brown_Teddy_Familiar.png",
+        "alt": "Use Brown Teddy Familiar",
+        "localPath": "../assets/icons/toy/Brown_Teddy_Familiar.png"
+      },
+      {
+        "name": "Pink Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Pink_Teddy_Familiar.png",
+        "alt": "Use Pink Teddy Familiar",
+        "localPath": "../assets/icons/toy/Pink_Teddy_Familiar.png"
+      },
+      {
+        "name": "Panda Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/25/Use_Panda_Teddy_Familiar.png",
+        "alt": "Use Panda Teddy Familiar",
+        "localPath": "../assets/icons/toy/Panda_Teddy_Familiar.png"
+      },
+      {
+        "name": "Roloduck",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d4/Use_Roloduck_Familiar.png",
+        "alt": "Use Roloduck Familiar",
+        "localPath": "../assets/icons/toy/Roloduck_Familiar.png"
+      },
+      {
+        "name": "Toy Trojan",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/40/Use_Toy_Trojan_Familiar.png",
+        "alt": "Use Toy Trojan Familiar",
+        "localPath": "../assets/icons/toy/Toy_Trojan_Familiar.png"
+      },
+      {
+        "name": "Robo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f9/Use_Robo_Familiar.png",
+        "alt": "Use Robo Familiar",
+        "localPath": "../assets/icons/toy/Robo_Familiar.png"
+      },
+      {
+        "name": "Master Robo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/be/Use_Master_Robo_Familiar.png",
+        "alt": "Use Master Robo Familiar",
+        "localPath": "../assets/icons/toy/Master_Robo_Familiar.png"
+      },
+      {
+        "name": "Tick",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dc/Use_Tick_Familiar.png",
+        "alt": "Use Tick Familiar",
+        "localPath": "../assets/icons/toy/Tick_Familiar.png"
+      },
+      {
+        "name": "Tick-Tock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/77/Use_Tick-Tock_Familiar.png",
+        "alt": "Use Tick-Tock Familiar",
+        "localPath": "../assets/icons/toy/TickTock_Familiar.png"
+      },
+      {
+        "name": "Chronos",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/24/Use_Chronos_Familiar.png",
+        "alt": "Use Chronos Familiar",
+        "localPath": "../assets/icons/toy/Chronos_Familiar.png"
+      },
+      {
+        "name": "Platoon Chronos",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6a/Use_Platoon_Chronos_Familiar.png",
+        "alt": "Use Platoon Chronos Familiar",
+        "localPath": "../assets/icons/toy/Platoon_Chronos_Familiar.png"
+      },
+      {
+        "name": "Master Chronos",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b6/Use_Master_Chronos_Familiar.png",
+        "alt": "Use Master Chronos Familiar",
+        "localPath": "../assets/icons/toy/Master_Chronos_Familiar.png"
+      },
+      {
+        "name": "Timer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/87/Use_Timer_Familiar.png",
+        "alt": "Use Timer Familiar",
+        "localPath": "../assets/icons/toy/Timer_Familiar.png"
+      },
+      {
+        "name": "Alishar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/99/Use_Alishar_Familiar.png",
+        "alt": "Use Alishar Familiar",
+        "localPath": "../assets/icons/toy/Alishar_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/toy/_badge_icon.png"
+  },
+  {
+    "name": "Clockwork Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/f/f3/FamiliarBadge_Clockwork_Badge.png",
+    "effects": "Max HP: +1%Defense: +5",
+    "familiars": [
+      {
+        "name": "[*]Buffy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/96/Use_Buffy_Familiar.png",
+        "alt": "Use Buffy Familiar",
+        "localPath": "../assets/icons/clockwork/Buffy_Familiar.png"
+      },
+      {
+        "name": "[*]Lazy Buffy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/53/Use_Lazy_Buffy_Familiar.png",
+        "alt": "Use Lazy Buffy Familiar",
+        "localPath": "../assets/icons/clockwork/Lazy_Buffy_Familiar.png"
+      },
+      {
+        "name": "[*]Soul Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Soul_Teddy_Familiar.png",
+        "alt": "Use Soul Teddy Familiar",
+        "localPath": "../assets/icons/clockwork/Soul_Teddy_Familiar.png"
+      },
+      {
+        "name": "[*]Master Soul Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/36/Use_Master_Soul_Teddy_Familiar.png",
+        "alt": "Use Master Soul Teddy Familiar",
+        "localPath": "../assets/icons/clockwork/Master_Soul_Teddy_Familiar.png"
+      },
+      {
+        "name": "[*]Buffoon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/53/Use_Buffoon_Familiar.png",
+        "alt": "Use Buffoon Familiar",
+        "localPath": "../assets/icons/clockwork/Buffoon_Familiar.png"
+      },
+      {
+        "name": "[*]Deep Buffoon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Deep_Buffoon_Familiar.png",
+        "alt": "Use Deep Buffoon Familiar",
+        "localPath": "../assets/icons/clockwork/Deep_Buffoon_Familiar.png"
+      },
+      {
+        "name": "[*]Klock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1a/Use_Klock_Familiar.png",
+        "alt": "Use Klock Familiar",
+        "localPath": "../assets/icons/clockwork/Klock_Familiar.png"
+      },
+      {
+        "name": "[*]Dark Klock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/60/Use_Dark_Klock_Familiar.png",
+        "alt": "Use Dark Klock Familiar",
+        "localPath": "../assets/icons/clockwork/Dark_Klock_Familiar.png"
+      },
+      {
+        "name": "[*]Ghost Pirate",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/da/Use_Ghost_Pirate_Familiar.png",
+        "alt": "Use Ghost Pirate Familiar",
+        "localPath": "../assets/icons/clockwork/Ghost_Pirate_Familiar.png"
+      },
+      {
+        "name": "[*]Dual Ghost Pirate",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bb/Use_Dual_Ghost_Pirate_Familiar.png",
+        "alt": "Use Dual Ghost Pirate Familiar",
+        "localPath": "../assets/icons/clockwork/Dual_Ghost_Pirate_Familiar.png"
+      },
+      {
+        "name": "[*]Death Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/09/Use_Death_Teddy_Familiar.png",
+        "alt": "Use Death Teddy Familiar",
+        "localPath": "../assets/icons/clockwork/Death_Teddy_Familiar.png"
+      },
+      {
+        "name": "[*]Master Death Teddy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2d/Use_Master_Death_Teddy_Familiar.png",
+        "alt": "Use Master Death Teddy Familiar",
+        "localPath": "../assets/icons/clockwork/Master_Death_Teddy_Familiar.png"
+      },
+      {
+        "name": "[*]Spirit Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8f/Use_Spirit_Viking_Familiar.png",
+        "alt": "Use Spirit Viking Familiar",
+        "localPath": "../assets/icons/clockwork/Spirit_Viking_Familiar.png"
+      },
+      {
+        "name": "[*]Gigantic Spirit Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0d/Use_Gigantic_Spirit_Viking_Familiar.png",
+        "alt": "Use Gigantic Spirit Viking Familiar",
+        "localPath": "../assets/icons/clockwork/Gigantic_Spirit_Viking_Familiar.png"
+      },
+      {
+        "name": "[*]Phantom Watch",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/67/Use_Phantom_Watch_Familiar.png",
+        "alt": "Use Phantom Watch Familiar",
+        "localPath": "../assets/icons/clockwork/Phantom_Watch_Familiar.png"
+      },
+      {
+        "name": "[*]Grim Phantom Watch",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/75/Use_Grim_Phantom_Watch_Familiar.png",
+        "alt": "Use Grim Phantom Watch Familiar",
+        "localPath": "../assets/icons/clockwork/Grim_Phantom_Watch_Familiar.png"
+      },
+      {
+        "name": "[*]Gatekeeper",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ec/Use_Gatekeeper_Familiar.png",
+        "alt": "Use Gatekeeper Familiar",
+        "localPath": "../assets/icons/clockwork/Gatekeeper_Familiar.png"
+      },
+      {
+        "name": "[*]Thanatos",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/61/Use_Thanatos_Familiar.png",
+        "alt": "Use Thanatos Familiar",
+        "localPath": "../assets/icons/clockwork/Thanatos_Familiar.png"
+      },
+      {
+        "name": "Papulatus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Papulatus_Familiar.png",
+        "alt": "Use Papulatus Familiar",
+        "localPath": "../assets/icons/clockwork/Papulatus_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/clockwork/_badge_icon.png"
+  },
+  {
+    "name": "Forest Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/2/2d/FamiliarBadge_Forest_Badge.png",
+    "effects": "Max HP: +5Defense: +5",
+    "familiars": [
+      {
+        "name": "Mossy Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Mossy_Snail_Familiar.png",
+        "alt": "Use Mossy Snail Familiar",
+        "localPath": "../assets/icons/forest/Mossy_Snail_Familiar.png"
+      },
+      {
+        "name": "Tree Rod",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2e/Use_Tree_Rod_Familiar.png",
+        "alt": "Use Tree Rod Familiar",
+        "localPath": "../assets/icons/forest/Tree_Rod_Familiar.png"
+      },
+      {
+        "name": "Mossy Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/19/Use_Mossy_Mushroom_Familiar.png",
+        "alt": "Use Mossy Mushroom Familiar",
+        "localPath": "../assets/icons/forest/Mossy_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Stone Bug",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d0/Use_Stone_Bug_Familiar.png",
+        "alt": "Use Stone Bug Familiar",
+        "localPath": "../assets/icons/forest/Stone_Bug_Familiar.png"
+      },
+      {
+        "name": "Primitive Boar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/88/Use_Primitive_Boar_Familiar.png",
+        "alt": "Use Primitive Boar Familiar",
+        "localPath": "../assets/icons/forest/Primitive_Boar_Familiar.png"
+      },
+      {
+        "name": "Super-Charged Poison Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/97/Use_Super-Charged_Poison_Golem_Familiar.png",
+        "alt": "Use Super-Charged Poison Golem Familiar",
+        "localPath": "../assets/icons/forest/SuperCharged_Poison_Golem_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/forest/_badge_icon.png"
+  },
+  {
+    "name": "Wave Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/73/FamiliarBadge_Wave_Badge.png",
+    "effects": "Magic Attack: +1%Defense: +20",
+    "familiars": [
+      {
+        "name": "Pinboom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bd/Use_Pinboom_Familiar.png",
+        "alt": "Use Pinboom Familiar",
+        "localPath": "../assets/icons/wave/Pinboom_Familiar.png"
+      },
+      {
+        "name": "Seacle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/83/Use_Seacle_Familiar.png",
+        "alt": "Use Seacle Familiar",
+        "localPath": "../assets/icons/wave/Seacle_Familiar.png"
+      },
+      {
+        "name": "Cico",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/19/Use_Cico_Familiar.png",
+        "alt": "Use Cico Familiar",
+        "localPath": "../assets/icons/wave/Cico_Familiar.png"
+      },
+      {
+        "name": "Krappy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Krappy_Familiar.png",
+        "alt": "Use Krappy Familiar",
+        "localPath": "../assets/icons/wave/Krappy_Familiar.png"
+      },
+      {
+        "name": "Bubble Fish",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/32/Use_Bubble_Fish_Familiar.png",
+        "alt": "Use Bubble Fish Familiar",
+        "localPath": "../assets/icons/wave/Bubble_Fish_Familiar.png"
+      },
+      {
+        "name": "Flower Fish",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c4/Use_Flower_Fish_Familiar.png",
+        "alt": "Use Flower Fish Familiar",
+        "localPath": "../assets/icons/wave/Flower_Fish_Familiar.png"
+      },
+      {
+        "name": "Krip",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Krip_Familiar.png",
+        "alt": "Use Krip Familiar",
+        "localPath": "../assets/icons/wave/Krip_Familiar.png"
+      },
+      {
+        "name": "Mask Fish",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cc/Use_Mask_Fish_Familiar.png",
+        "alt": "Use Mask Fish Familiar",
+        "localPath": "../assets/icons/wave/Mask_Fish_Familiar.png"
+      },
+      {
+        "name": "Scuba Pepe",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f9/Use_Scuba_Pepe_Familiar.png",
+        "alt": "Use Scuba Pepe Familiar",
+        "localPath": "../assets/icons/wave/Scuba_Pepe_Familiar.png"
+      },
+      {
+        "name": "Jr. Seal",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/14/Use_Jr._Seal_Familiar.png",
+        "alt": "Use Jr. Seal Familiar",
+        "localPath": "../assets/icons/wave/Jr_Seal_Familiar.png"
+      },
+      {
+        "name": "Poopa",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Poopa_Familiar.png",
+        "alt": "Use Poopa Familiar",
+        "localPath": "../assets/icons/wave/Poopa_Familiar.png"
+      },
+      {
+        "name": "Poison Poopa",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/96/Use_Poison_Poopa_Familiar.png",
+        "alt": "Use Poison Poopa Familiar",
+        "localPath": "../assets/icons/wave/Poison_Poopa_Familiar.png"
+      },
+      {
+        "name": "Sparker",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/12/Use_Sparker_Familiar.png",
+        "alt": "Use Sparker Familiar",
+        "localPath": "../assets/icons/wave/Sparker_Familiar.png"
+      },
+      {
+        "name": "Freezer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0f/Use_Freezer_Familiar.png",
+        "alt": "Use Freezer Familiar",
+        "localPath": "../assets/icons/wave/Freezer_Familiar.png"
+      },
+      {
+        "name": "Seruf",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9d/Use_Seruf_Familiar.png",
+        "alt": "Use Seruf Familiar",
+        "localPath": "../assets/icons/wave/Seruf_Familiar.png"
+      },
+      {
+        "name": "Goby",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/54/Use_Goby_Familiar.png",
+        "alt": "Use Goby Familiar",
+        "localPath": "../assets/icons/wave/Goby_Familiar.png"
+      },
+      {
+        "name": "Bone Fish",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/50/Use_Bone_Fish_Familiar.png",
+        "alt": "Use Bone Fish Familiar",
+        "localPath": "../assets/icons/wave/Bone_Fish_Familiar.png"
+      },
+      {
+        "name": "Squid",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Squid_Familiar.png",
+        "alt": "Use Squid Familiar",
+        "localPath": "../assets/icons/wave/Squid_Familiar.png"
+      },
+      {
+        "name": "Risell Squid",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0f/Use_Risell_Squid_Familiar.png",
+        "alt": "Use Risell Squid Familiar",
+        "localPath": "../assets/icons/wave/Risell_Squid_Familiar.png"
+      },
+      {
+        "name": "Shark",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a2/Use_Shark_Familiar.png",
+        "alt": "Use Shark Familiar",
+        "localPath": "../assets/icons/wave/Shark_Familiar.png"
+      },
+      {
+        "name": "Cold Shark",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/46/Use_Cold_Shark_Familiar.png",
+        "alt": "Use Cold Shark Familiar",
+        "localPath": "../assets/icons/wave/Cold_Shark_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/wave/_badge_icon.png"
+  },
+  {
+    "name": "Wings Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/8/82/FamiliarBadge_Wings_Badge.png",
+    "effects": "Speed: +1All Stats: +1%",
+    "familiars": [
+      {
+        "name": "Jr. Cellion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f8/Use_Jr._Cellion_Familiar.png",
+        "alt": "Use Jr. Cellion Familiar",
+        "localPath": "../assets/icons/wings/Jr_Cellion_Familiar.png"
+      },
+      {
+        "name": "Jr. Lioner",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/37/Use_Jr._Lioner_Familiar.png",
+        "alt": "Use Jr. Lioner Familiar",
+        "localPath": "../assets/icons/wings/Jr_Lioner_Familiar.png"
+      },
+      {
+        "name": "Jr. Grupin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/45/Use_Jr._Grupin_Familiar.png",
+        "alt": "Use Jr. Grupin Familiar",
+        "localPath": "../assets/icons/wings/Jr_Grupin_Familiar.png"
+      },
+      {
+        "name": "Cellion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/21/Use_Cellion_Familiar.png",
+        "alt": "Use Cellion Familiar",
+        "localPath": "../assets/icons/wings/Cellion_Familiar.png"
+      },
+      {
+        "name": "Lioner",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3a/Use_Lioner_Familiar.png",
+        "alt": "Use Lioner Familiar",
+        "localPath": "../assets/icons/wings/Lioner_Familiar.png"
+      },
+      {
+        "name": "Grupin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dc/Use_Grupin_Familiar.png",
+        "alt": "Use Grupin Familiar",
+        "localPath": "../assets/icons/wings/Grupin_Familiar.png"
+      },
+      {
+        "name": "Jr. Lucida",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/83/Use_Jr._Lucida_Familiar.png",
+        "alt": "Use Jr. Lucida Familiar",
+        "localPath": "../assets/icons/wings/Jr_Lucida_Familiar.png"
+      },
+      {
+        "name": "Lucida",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/58/Use_Lucida_Familiar.png",
+        "alt": "Use Lucida Familiar",
+        "localPath": "../assets/icons/wings/Lucida_Familiar.png"
+      },
+      {
+        "name": "Star Pixie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/60/Use_Star_Pixie_Familiar.png",
+        "alt": "Use Star Pixie Familiar",
+        "localPath": "../assets/icons/wings/Star_Pixie_Familiar.png"
+      },
+      {
+        "name": "Lunar Pixie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/32/Use_Lunar_Pixie_Familiar.png",
+        "alt": "Use Lunar Pixie Familiar",
+        "localPath": "../assets/icons/wings/Lunar_Pixie_Familiar.png"
+      },
+      {
+        "name": "Luster Pixie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ea/Use_Luster_Pixie_Familiar.png",
+        "alt": "Use Luster Pixie Familiar",
+        "localPath": "../assets/icons/wings/Luster_Pixie_Familiar.png"
+      },
+      {
+        "name": "Eliza",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a6/Use_Eliza_Familiar.png",
+        "alt": "Use Eliza Familiar",
+        "localPath": "../assets/icons/wings/Eliza_Familiar.png"
+      },
+      {
+        "name": "Papa Pixie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b1/Use_Papa_Pixie_Familiar.png",
+        "alt": "Use Papa Pixie Familiar",
+        "localPath": "../assets/icons/wings/Papa_Pixie_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/wings/_badge_icon.png"
+  },
+  {
+    "name": "Snow Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/7e/FamiliarBadge_Snow_Badge.png",
+    "effects": "Weapon Attack: +1DEX: +1",
+    "familiars": [
+      {
+        "name": "Jr. Sentinel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/06/Use_Jr._Sentinel_Familiar.png",
+        "alt": "Use Jr. Sentinel Familiar",
+        "localPath": "../assets/icons/snow/Jr_Sentinel_Familiar.png"
+      },
+      {
+        "name": "Sentinel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e6/Use_Sentinel_Familiar.png",
+        "alt": "Use Sentinel Familiar",
+        "localPath": "../assets/icons/snow/Sentinel_Familiar.png"
+      },
+      {
+        "name": "Fire Sentinel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1c/Use_Fire_Sentinel_Familiar.png",
+        "alt": "Use Fire Sentinel Familiar",
+        "localPath": "../assets/icons/snow/Fire_Sentinel_Familiar.png"
+      },
+      {
+        "name": "Ice Sentinel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2b/Use_Ice_Sentinel_Familiar.png",
+        "alt": "Use Ice Sentinel Familiar",
+        "localPath": "../assets/icons/snow/Ice_Sentinel_Familiar.png"
+      },
+      {
+        "name": "Leatty",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1d/Use_Leatty_Familiar.png",
+        "alt": "Use Leatty Familiar",
+        "localPath": "../assets/icons/snow/Leatty_Familiar.png"
+      },
+      {
+        "name": "Dark Leatty",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Dark_Leatty_Familiar.png",
+        "alt": "Use Dark Leatty Familiar",
+        "localPath": "../assets/icons/snow/Dark_Leatty_Familiar.png"
+      },
+      {
+        "name": "Jr. Pepe",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ed/Use_Jr._Pepe_Familiar.png",
+        "alt": "Use Jr. Pepe Familiar",
+        "localPath": "../assets/icons/snow/Jr_Pepe_Familiar.png"
+      },
+      {
+        "name": "Jr. Yeti",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2a/Use_Jr._Yeti_Familiar.png",
+        "alt": "Use Jr. Yeti Familiar",
+        "localPath": "../assets/icons/snow/Jr_Yeti_Familiar.png"
+      },
+      {
+        "name": "Dark Jr. Yeti",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f9/Use_Dark_Jr._Yeti_Familiar.png",
+        "alt": "Use Dark Jr. Yeti Familiar",
+        "localPath": "../assets/icons/snow/Dark_Jr_Yeti_Familiar.png"
+      },
+      {
+        "name": "Dark Pepe",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ed/Use_Dark_Pepe_Familiar.png",
+        "alt": "Use Dark Pepe Familiar",
+        "localPath": "../assets/icons/snow/Dark_Pepe_Familiar.png"
+      },
+      {
+        "name": "Hector",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9e/Use_Hector_Familiar.png",
+        "alt": "Use Hector Familiar",
+        "localPath": "../assets/icons/snow/Hector_Familiar.png"
+      },
+      {
+        "name": "White Fang",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/Use_White_Fang_Familiar.png",
+        "alt": "Use White Fang Familiar",
+        "localPath": "../assets/icons/snow/White_Fang_Familiar.png"
+      },
+      {
+        "name": "Snow Witch",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b3/Use_Snow_Witch_Familiar.png",
+        "alt": "Use Snow Witch Familiar",
+        "localPath": "../assets/icons/snow/Snow_Witch_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/snow/_badge_icon.png"
+  },
+  {
+    "name": "Depths Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/7a/FamiliarBadge_Depths_Badge.png",
+    "effects": "Weapon Attack: +1%Magic Attack: +2",
+    "familiars": [
+      {
+        "name": "Yeti",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d4/Use_Yeti_Familiar.png",
+        "alt": "Use Yeti Familiar",
+        "localPath": "../assets/icons/depths/Yeti_Familiar.png"
+      },
+      {
+        "name": "Dark Yeti",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/99/Use_Dark_Yeti_Familiar.png",
+        "alt": "Use Dark Yeti Familiar",
+        "localPath": "../assets/icons/depths/Dark_Yeti_Familiar.png"
+      },
+      {
+        "name": "Werewolf",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/47/Use_Werewolf_Familiar.png",
+        "alt": "Use Werewolf Familiar",
+        "localPath": "../assets/icons/depths/Werewolf_Familiar.png"
+      },
+      {
+        "name": "Flyeye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e7/Use_Flyeye_Familiar.png",
+        "alt": "Use Flyeye Familiar",
+        "localPath": "../assets/icons/depths/Flyeye_Familiar.png"
+      },
+      {
+        "name": "Nyalmo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a7/Use_Nyalmo_Familiar.png",
+        "alt": "Use Nyalmo Familiar",
+        "localPath": "../assets/icons/depths/Nyalmo_Familiar.png"
+      },
+      {
+        "name": "Lycanthrope",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c6/Use_Lycanthrope_Familiar.png",
+        "alt": "Use Lycanthrope Familiar",
+        "localPath": "../assets/icons/depths/Lycanthrope_Familiar.png"
+      },
+      {
+        "name": "Coolie Zombie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/29/Use_Coolie_Zombie_Familiar.png",
+        "alt": "Use Coolie Zombie Familiar",
+        "localPath": "../assets/icons/depths/Coolie_Zombie_Familiar.png"
+      },
+      {
+        "name": "Lich",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Lich_Familiar.png",
+        "alt": "Use Lich Familiar",
+        "localPath": "../assets/icons/depths/Lich_Familiar.png"
+      },
+      {
+        "name": "[*]Miner Zombie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b6/Use_Miner_Zombie_Familiar.png",
+        "alt": "Use Miner Zombie Familiar",
+        "localPath": "../assets/icons/depths/Miner_Zombie_Familiar.png"
+      },
+      {
+        "name": "[*]Jr. Cerebes",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4c/Use_Jr._Cerebes_Familiar.png",
+        "alt": "Use Jr. Cerebes Familiar",
+        "localPath": "../assets/icons/depths/Jr_Cerebes_Familiar.png"
+      },
+      {
+        "name": "[*]Cerebes",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/08/Use_Cerebes_Familiar.png",
+        "alt": "Use Cerebes Familiar",
+        "localPath": "../assets/icons/depths/Cerebes_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/depths/_badge_icon.png"
+  },
+  {
+    "name": "Cloud Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/e/e7/FamiliarBadge_Cloud_Badge.png",
+    "effects": "All Stats: +1Ignored Enemy Defense: +3%",
+    "familiars": [
+      {
+        "name": "Straw Target Dummy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1a/Use_Straw_Target_Dummy_Familiar.png",
+        "alt": "Use Straw Target Dummy Familiar",
+        "localPath": "../assets/icons/cloud/Straw_Target_Dummy_Familiar.png"
+      },
+      {
+        "name": "Wooden Target Dummy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Wooden_Target_Dummy_Familiar.png",
+        "alt": "Use Wooden Target Dummy Familiar",
+        "localPath": "../assets/icons/cloud/Wooden_Target_Dummy_Familiar.png"
+      },
+      {
+        "name": "Chipmunk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/33/Use_Chipmunk_Familiar.png",
+        "alt": "Use Chipmunk Familiar",
+        "localPath": "../assets/icons/cloud/Chipmunk_Familiar.png"
+      },
+      {
+        "name": "Red Porky",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bc/Use_Red_Porky_Familiar.png",
+        "alt": "Use Red Porky Familiar",
+        "localPath": "../assets/icons/cloud/Red_Porky_Familiar.png"
+      },
+      {
+        "name": "Black Porky",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/22/Use_Black_Porky_Familiar.png",
+        "alt": "Use Black Porky Familiar",
+        "localPath": "../assets/icons/cloud/Black_Porky_Familiar.png"
+      },
+      {
+        "name": "Blue Flower Serpent",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c1/Use_Blue_Flower_Serpent_Familiar.png",
+        "alt": "Use Blue Flower Serpent Familiar",
+        "localPath": "../assets/icons/cloud/Blue_Flower_Serpent_Familiar.png"
+      },
+      {
+        "name": "Red Flower Serpent",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ef/Use_Red_Flower_Serpent_Familiar.png",
+        "alt": "Use Red Flower Serpent Familiar",
+        "localPath": "../assets/icons/cloud/Red_Flower_Serpent_Familiar.png"
+      },
+      {
+        "name": "Grizzly",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/12/Use_Grizzly_Familiar.png",
+        "alt": "Use Grizzly Familiar",
+        "localPath": "../assets/icons/cloud/Grizzly_Familiar.png"
+      },
+      {
+        "name": "Panda",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/df/Use_Panda_Familiar.png",
+        "alt": "Use Panda Familiar",
+        "localPath": "../assets/icons/cloud/Panda_Familiar.png"
+      },
+      {
+        "name": "Cute Reindeer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/40/Use_Cute_Reindeer_Familiar.png",
+        "alt": "Use Cute Reindeer Familiar",
+        "localPath": "../assets/icons/cloud/Cute_Reindeer_Familiar.png"
+      },
+      {
+        "name": "Peach Monkey",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1b/Use_Peach_Monkey_Familiar.png",
+        "alt": "Use Peach Monkey Familiar",
+        "localPath": "../assets/icons/cloud/Peach_Monkey_Familiar.png"
+      },
+      {
+        "name": "The Book Ghost",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1c/Use_The_Book_Ghost_Familiar.png",
+        "alt": "Use The Book Ghost Familiar",
+        "localPath": "../assets/icons/cloud/The_Book_Ghost_Familiar.png"
+      },
+      {
+        "name": "Sage Cat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/20/Use_Sage_Cat_Familiar.png",
+        "alt": "Use Sage Cat Familiar",
+        "localPath": "../assets/icons/cloud/Sage_Cat_Familiar.png"
+      },
+      {
+        "name": "Master Dummy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/45/Use_Master_Dummy_Familiar.png",
+        "alt": "Use Master Dummy Familiar",
+        "localPath": "../assets/icons/cloud/Master_Dummy_Familiar.png"
+      },
+      {
+        "name": "Jar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Jar_Familiar.png",
+        "alt": "Use Jar Familiar",
+        "localPath": "../assets/icons/cloud/Jar_Familiar.png"
+      },
+      {
+        "name": "Ginseng Jar",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d9/Use_Ginseng_Jar_Familiar.png",
+        "alt": "Use Ginseng Jar Familiar",
+        "localPath": "../assets/icons/cloud/Ginseng_Jar_Familiar.png"
+      },
+      {
+        "name": "Bellflower Root",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Bellflower_Root_Familiar.png",
+        "alt": "Use Bellflower Root Familiar",
+        "localPath": "../assets/icons/cloud/Bellflower_Root_Familiar.png"
+      },
+      {
+        "name": "Sr. Bellflower Root",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bf/Use_Sr._Bellflower_Root_Familiar.png",
+        "alt": "Use Sr. Bellflower Root Familiar",
+        "localPath": "../assets/icons/cloud/Sr_Bellflower_Root_Familiar.png"
+      },
+      {
+        "name": "Mr. Alli",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b4/Use_Mr._Alli_Familiar.png",
+        "alt": "Use Mr. Alli Familiar",
+        "localPath": "../assets/icons/cloud/Mr_Alli_Familiar.png"
+      },
+      {
+        "name": "Kru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/75/Use_Kru_Familiar.png",
+        "alt": "Use Kru Familiar",
+        "localPath": "../assets/icons/cloud/Kru_Familiar.png"
+      },
+      {
+        "name": "Tae Roon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d6/Use_Tae_Roon_Familiar.png",
+        "alt": "Use Tae Roon Familiar",
+        "localPath": "../assets/icons/cloud/Tae_Roon_Familiar.png"
+      },
+      {
+        "name": "King Sage Cat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/76/Use_King_Sage_Cat_Familiar.png",
+        "alt": "Use King Sage Cat Familiar",
+        "localPath": "../assets/icons/cloud/King_Sage_Cat_Familiar.png"
+      },
+      {
+        "name": "Captain",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f8/Use_Captain_Familiar.png",
+        "alt": "Use Captain Familiar",
+        "localPath": "../assets/icons/cloud/Captain_Familiar.png"
+      },
+      {
+        "name": "Lord Pirate",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8e/Use_Lord_Pirate_Familiar.png",
+        "alt": "Use Lord Pirate Familiar",
+        "localPath": "../assets/icons/cloud/Lord_Pirate_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/cloud/_badge_icon.png"
+  },
+  {
+    "name": "Hatching Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/9/96/FamiliarBadge_Hatching_Badge.png",
+    "effects": "All Skill Levels: +1 (except 5th Job Skills)",
+    "familiars": [
+      {
+        "name": "Rash",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9c/Use_Rash_Familiar.png",
+        "alt": "Use Rash Familiar",
+        "localPath": "../assets/icons/hatching/Rash_Familiar.png"
+      },
+      {
+        "name": "Beetle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Beetle_Familiar.png",
+        "alt": "Use Beetle Familiar",
+        "localPath": "../assets/icons/hatching/Beetle_Familiar.png"
+      },
+      {
+        "name": "Dark Rash",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0c/Use_Dark_Rash_Familiar.png",
+        "alt": "Use Dark Rash Familiar",
+        "localPath": "../assets/icons/hatching/Dark_Rash_Familiar.png"
+      },
+      {
+        "name": "Dual Beetle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Dual_Beetle_Familiar.png",
+        "alt": "Use Dual Beetle Familiar",
+        "localPath": "../assets/icons/hatching/Dual_Beetle_Familiar.png"
+      },
+      {
+        "name": "Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dc/Use_Hoblin_Familiar.png",
+        "alt": "Use Hoblin Familiar",
+        "localPath": "../assets/icons/hatching/Hoblin_Familiar.png"
+      },
+      {
+        "name": "Green Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b9/Use_Green_Hoblin_Familiar.png",
+        "alt": "Use Green Hoblin Familiar",
+        "localPath": "../assets/icons/hatching/Green_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Hankie",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3a/Use_Hankie_Familiar.png",
+        "alt": "Use Hankie Familiar",
+        "localPath": "../assets/icons/hatching/Hankie_Familiar.png"
+      },
+      {
+        "name": "Harp",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/01/Use_Harp_Familiar.png",
+        "alt": "Use Harp Familiar",
+        "localPath": "../assets/icons/hatching/Harp_Familiar.png"
+      },
+      {
+        "name": "Blood Harp",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cb/Use_Blood_Harp_Familiar.png",
+        "alt": "Use Blood Harp Familiar",
+        "localPath": "../assets/icons/hatching/Blood_Harp_Familiar.png"
+      },
+      {
+        "name": "Birk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/49/Use_Birk_Familiar.png",
+        "alt": "Use Birk Familiar",
+        "localPath": "../assets/icons/hatching/Birk_Familiar.png"
+      },
+      {
+        "name": "Black Kentaurus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c4/Use_Black_Kentaurus_Familiar.png",
+        "alt": "Use Black Kentaurus Familiar",
+        "localPath": "../assets/icons/hatching/Black_Kentaurus_Familiar.png"
+      },
+      {
+        "name": "Red Kentaurus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/58/Use_Red_Kentaurus_Familiar.png",
+        "alt": "Use Red Kentaurus Familiar",
+        "localPath": "../assets/icons/hatching/Red_Kentaurus_Familiar.png"
+      },
+      {
+        "name": "Blue Kentaurus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Blue_Kentaurus_Familiar.png",
+        "alt": "Use Blue Kentaurus Familiar",
+        "localPath": "../assets/icons/hatching/Blue_Kentaurus_Familiar.png"
+      },
+      {
+        "name": "Manon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Manon_Familiar.png",
+        "alt": "Use Manon Familiar",
+        "localPath": "../assets/icons/hatching/Manon_Familiar.png"
+      },
+      {
+        "name": "Griffey",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/76/Use_Griffey_Familiar.png",
+        "alt": "Use Griffey Familiar",
+        "localPath": "../assets/icons/hatching/Griffey_Familiar.png"
+      },
+      {
+        "name": "Red Dragon Turtle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7b/Use_Red_Dragon_Turtle_Familiar.png",
+        "alt": "Use Red Dragon Turtle Familiar",
+        "localPath": "../assets/icons/hatching/Red_Dragon_Turtle_Familiar.png"
+      },
+      {
+        "name": "Rexton",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a2/Use_Rexton_Familiar.png",
+        "alt": "Use Rexton Familiar",
+        "localPath": "../assets/icons/hatching/Rexton_Familiar.png"
+      },
+      {
+        "name": "Brexton",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fa/Use_Brexton_Familiar.png",
+        "alt": "Use Brexton Familiar",
+        "localPath": "../assets/icons/hatching/Brexton_Familiar.png"
+      },
+      {
+        "name": "Red Wyvern",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5d/Use_Red_Wyvern_Familiar.png",
+        "alt": "Use Red Wyvern Familiar",
+        "localPath": "../assets/icons/hatching/Red_Wyvern_Familiar.png"
+      },
+      {
+        "name": "Green Cornian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Green_Cornian_Familiar.png",
+        "alt": "Use Green Cornian Familiar",
+        "localPath": "../assets/icons/hatching/Green_Cornian_Familiar.png"
+      },
+      {
+        "name": "Blue Wyvern",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e4/Use_Blue_Wyvern_Familiar.png",
+        "alt": "Use Blue Wyvern Familiar",
+        "localPath": "../assets/icons/hatching/Blue_Wyvern_Familiar.png"
+      },
+      {
+        "name": "Dark Wyvern",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/13/Use_Dark_Wyvern_Familiar.png",
+        "alt": "Use Dark Wyvern Familiar",
+        "localPath": "../assets/icons/hatching/Dark_Wyvern_Familiar.png"
+      },
+      {
+        "name": "Dark Cornian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f8/Use_Dark_Cornian_Familiar.png",
+        "alt": "Use Dark Cornian Familiar",
+        "localPath": "../assets/icons/hatching/Dark_Cornian_Familiar.png"
+      },
+      {
+        "name": "Leviathan",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d0/Use_Leviathan_Familiar.png",
+        "alt": "Use Leviathan Familiar",
+        "localPath": "../assets/icons/hatching/Leviathan_Familiar.png"
+      },
+      {
+        "name": "Skelegon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/51/Use_Skelegon_Familiar.png",
+        "alt": "Use Skelegon Familiar",
+        "localPath": "../assets/icons/hatching/Skelegon_Familiar.png"
+      },
+      {
+        "name": "Nest Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/6e/Use_Nest_Golem_Familiar.png",
+        "alt": "Use Nest Golem Familiar",
+        "localPath": "../assets/icons/hatching/Nest_Golem_Familiar.png"
+      },
+      {
+        "name": "Dragonoir",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/ff/Use_Dragonoir_Familiar.png",
+        "alt": "Use Dragonoir Familiar",
+        "localPath": "../assets/icons/hatching/Dragonoir_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/hatching/_badge_icon.png"
+  },
+  {
+    "name": "Time Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/9/93/FamiliarBadge_Time_Badge.png",
+    "effects": "3% chance to recover 20 HP when attackingIgnored Enemy Defense: +3%",
+    "familiars": [
+      {
+        "name": "Eye of Time",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f2/Use_Eye_of_Time_Familiar.png",
+        "alt": "Use Eye of Time Familiar",
+        "localPath": "../assets/icons/time/Eye_of_Time_Familiar.png"
+      },
+      {
+        "name": "Memory Monk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3f/Use_Memory_Monk_Familiar.png",
+        "alt": "Use Memory Monk Familiar",
+        "localPath": "../assets/icons/time/Memory_Monk_Familiar.png"
+      },
+      {
+        "name": "Memory Monk Trainee",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fd/Use_Memory_Monk_Trainee_Familiar.png",
+        "alt": "Use Memory Monk Trainee Familiar",
+        "localPath": "../assets/icons/time/Memory_Monk_Trainee_Familiar.png"
+      },
+      {
+        "name": "Memory Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/86/Use_Memory_Guardian_Familiar.png",
+        "alt": "Use Memory Guardian Familiar",
+        "localPath": "../assets/icons/time/Memory_Guardian_Familiar.png"
+      },
+      {
+        "name": "Chief Memory Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a0/Use_Chief_Memory_Guardian_Familiar.png",
+        "alt": "Use Chief Memory Guardian Familiar",
+        "localPath": "../assets/icons/time/Chief_Memory_Guardian_Familiar.png"
+      },
+      {
+        "name": "Dodo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1c/Use_Dodo_Familiar.png",
+        "alt": "Use Dodo Familiar",
+        "localPath": "../assets/icons/time/Dodo_Familiar.png"
+      },
+      {
+        "name": "Qualm Monk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f6/Use_Qualm_Monk_Familiar.png",
+        "alt": "Use Qualm Monk Familiar",
+        "localPath": "../assets/icons/time/Qualm_Monk_Familiar.png"
+      },
+      {
+        "name": "Qualm Monk Trainee",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dd/Use_Qualm_Monk_Trainee_Familiar.png",
+        "alt": "Use Qualm Monk Trainee Familiar",
+        "localPath": "../assets/icons/time/Qualm_Monk_Trainee_Familiar.png"
+      },
+      {
+        "name": "Qualm Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c6/Use_Qualm_Guardian_Familiar.png",
+        "alt": "Use Qualm Guardian Familiar",
+        "localPath": "../assets/icons/time/Qualm_Guardian_Familiar.png"
+      },
+      {
+        "name": "Chief Qualm Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5f/Use_Chief_Qualm_Guardian_Familiar.png",
+        "alt": "Use Chief Qualm Guardian Familiar",
+        "localPath": "../assets/icons/time/Chief_Qualm_Guardian_Familiar.png"
+      },
+      {
+        "name": "Lilynouch",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Lilynouch_Familiar.png",
+        "alt": "Use Lilynouch Familiar",
+        "localPath": "../assets/icons/time/Lilynouch_Familiar.png"
+      },
+      {
+        "name": "Oblivion Monk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/07/Use_Oblivion_Monk_Familiar.png",
+        "alt": "Use Oblivion Monk Familiar",
+        "localPath": "../assets/icons/time/Oblivion_Monk_Familiar.png"
+      },
+      {
+        "name": "Oblivion Monk Trainee",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/73/Use_Oblivion_Monk_Trainee_Familiar.png",
+        "alt": "Use Oblivion Monk Trainee Familiar",
+        "localPath": "../assets/icons/time/Oblivion_Monk_Trainee_Familiar.png"
+      },
+      {
+        "name": "Oblivion Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e2/Use_Oblivion_Guardian_Familiar.png",
+        "alt": "Use Oblivion Guardian Familiar",
+        "localPath": "../assets/icons/time/Oblivion_Guardian_Familiar.png"
+      },
+      {
+        "name": "Chief Oblivion Guardian",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8e/Use_Chief_Oblivion_Guardian_Familiar.png",
+        "alt": "Use Chief Oblivion Guardian Familiar",
+        "localPath": "../assets/icons/time/Chief_Oblivion_Guardian_Familiar.png"
+      },
+      {
+        "name": "Lyka",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Lyka_Familiar.png",
+        "alt": "Use Lyka Familiar",
+        "localPath": "../assets/icons/time/Lyka_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/time/_badge_icon.png"
+  },
+  {
+    "name": "Shrine Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/f/f3/FamiliarBadge_Shrine_Badge.png",
+    "effects": "15% chance to recover 40 MP after defeating a monsterDamage: +1%",
+    "familiars": [
+      {
+        "name": "Crow",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/93/Use_Crow_Familiar.png",
+        "alt": "Use Crow Familiar",
+        "localPath": "../assets/icons/shrine/Crow_Familiar.png"
+      },
+      {
+        "name": "Fire Raccoon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/12/Use_Fire_Raccoon_Familiar.png",
+        "alt": "Use Fire Raccoon Familiar",
+        "localPath": "../assets/icons/shrine/Fire_Raccoon_Familiar.png"
+      },
+      {
+        "name": "Cloud Fox",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4d/Use_Cloud_Fox_Familiar.png",
+        "alt": "Use Cloud Fox Familiar",
+        "localPath": "../assets/icons/shrine/Cloud_Fox_Familiar.png"
+      },
+      {
+        "name": "Nightghost",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3e/Use_Nightghost_Familiar.png",
+        "alt": "Use Nightghost Familiar",
+        "localPath": "../assets/icons/shrine/Nightghost_Familiar.png"
+      },
+      {
+        "name": "Big Cloud Fox",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/16/Use_Big_Cloud_Fox_Familiar.png",
+        "alt": "Use Big Cloud Fox Familiar",
+        "localPath": "../assets/icons/shrine/Big_Cloud_Fox_Familiar.png"
+      },
+      {
+        "name": "Paper Lantern Ghost",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f5/Use_Paper_Lantern_Ghost_Familiar.png",
+        "alt": "Use Paper Lantern Ghost Familiar",
+        "localPath": "../assets/icons/shrine/Paper_Lantern_Ghost_Familiar.png"
+      },
+      {
+        "name": "Water Goblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/20/Use_Water_Goblin_Familiar.png",
+        "alt": "Use Water Goblin Familiar",
+        "localPath": "../assets/icons/shrine/Water_Goblin_Familiar.png"
+      },
+      {
+        "name": "Dreamy Ghost",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0d/Use_Dreamy_Ghost_Familiar.png",
+        "alt": "Use Dreamy Ghost Familiar",
+        "localPath": "../assets/icons/shrine/Dreamy_Ghost_Familiar.png"
+      },
+      {
+        "name": "Black Crow",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7e/Use_Black_Crow_Familiar.png",
+        "alt": "Use Black Crow Familiar",
+        "localPath": "../assets/icons/shrine/Black_Crow_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/shrine/_badge_icon.png"
+  },
+  {
+    "name": "Shuriken Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/5/5c/FamiliarBadge_Shuriken_Badge.png",
+    "effects": "DEX: +1Damage: +1%",
+    "familiars": [
+      {
+        "name": "Sakura Genin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/37/Use_Sakura_Genin_Familiar.png",
+        "alt": "Use Sakura Genin Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Genin_Familiar.png"
+      },
+      {
+        "name": "Sakura Chunin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/04/Use_Sakura_Chunin_Familiar.png",
+        "alt": "Use Sakura Chunin Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Chunin_Familiar.png"
+      },
+      {
+        "name": "Sakura Jonin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/79/Use_Sakura_Jonin_Familiar.png",
+        "alt": "Use Sakura Jonin Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Jonin_Familiar.png"
+      },
+      {
+        "name": "Sakura Ninto",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fc/Use_Sakura_Ninto_Familiar.png",
+        "alt": "Use Sakura Ninto Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Ninto_Familiar.png"
+      },
+      {
+        "name": "Sakura Ashigaru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/92/Use_Sakura_Ashigaru_Familiar.png",
+        "alt": "Use Sakura Ashigaru Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Ashigaru_Familiar.png"
+      },
+      {
+        "name": "Sakura Kunoichi",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0c/Use_Sakura_Kunoichi_Familiar.png",
+        "alt": "Use Sakura Kunoichi Familiar",
+        "localPath": "../assets/icons/shuriken/Sakura_Kunoichi_Familiar.png"
+      },
+      {
+        "name": "False Daimyo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d8/Use_False_Daimyo_Familiar.png",
+        "alt": "Use False Daimyo Familiar",
+        "localPath": "../assets/icons/shuriken/False_Daimyo_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/shuriken/_badge_icon.png"
+  },
+  {
+    "name": "Showa Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/5/58/FamiliarBadge_Showa_Badge.png",
+    "effects": "All Stats: +1Damage: +1%",
+    "familiars": [
+      {
+        "name": "[*]Bain",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2a/Use_Bain_Familiar.png",
+        "alt": "Use Bain Familiar",
+        "localPath": "../assets/icons/showa/Bain_Familiar.png"
+      },
+      {
+        "name": "Yakuza Soldier",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8b/Use_Yakuza_Soldier_Familiar.png",
+        "alt": "Use Yakuza Soldier Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Soldier_Familiar.png"
+      },
+      {
+        "name": "Yakuza Grunt",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e5/Use_Yakuza_Grunt_Familiar.png",
+        "alt": "Use Yakuza Grunt Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Grunt_Familiar.png"
+      },
+      {
+        "name": "Yakuza Bruiser",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0f/Use_Yakuza_Bruiser_Familiar.png",
+        "alt": "Use Yakuza Bruiser Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Bruiser_Familiar.png"
+      },
+      {
+        "name": "Yakuza Enforcer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/03/Use_Yakuza_Enforcer_Familiar.png",
+        "alt": "Use Yakuza Enforcer Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Enforcer_Familiar.png"
+      },
+      {
+        "name": "Yakuza Lieutenant",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e6/Use_Yakuza_Lieutenant_Familiar.png",
+        "alt": "Use Yakuza Lieutenant Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Lieutenant_Familiar.png"
+      },
+      {
+        "name": "Yakuza Shotcaller",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/04/Use_Yakuza_Shotcaller_Familiar.png",
+        "alt": "Use Yakuza Shotcaller Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Shotcaller_Familiar.png"
+      },
+      {
+        "name": "Yakuza Officer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/77/Use_Yakuza_Officer_Familiar.png",
+        "alt": "Use Yakuza Officer Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Officer_Familiar.png"
+      },
+      {
+        "name": "Yakuza Underboss",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/Use_Yakuza_Underboss_Familiar.png",
+        "alt": "Use Yakuza Underboss Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Underboss_Familiar.png"
+      },
+      {
+        "name": "Yakuza Boss",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/21/Use_Yakuza_Boss_Familiar.png",
+        "alt": "Use Yakuza Boss Familiar",
+        "localPath": "../assets/icons/showa/Yakuza_Boss_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/showa/_badge_icon.png"
+  },
+  {
+    "name": "City Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/4/41/FamiliarBadge_City_Badge.png",
+    "effects": "Weapon Attack: +1Magic Attack: +2",
+    "familiars": [
+      {
+        "name": "Rooster",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/80/Use_Rooster_Familiar.png",
+        "alt": "Use Rooster Familiar",
+        "localPath": "../assets/icons/city/Rooster_Familiar.png"
+      },
+      {
+        "name": "Duck",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e5/Use_Duck_Familiar.png",
+        "alt": "Use Duck Familiar",
+        "localPath": "../assets/icons/city/Duck_Familiar.png"
+      },
+      {
+        "name": "Sheep",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Sheep_Familiar.png",
+        "alt": "Use Sheep Familiar",
+        "localPath": "../assets/icons/city/Sheep_Familiar.png"
+      },
+      {
+        "name": "Black Sheep",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a7/Use_Black_Sheep_Familiar.png",
+        "alt": "Use Black Sheep Familiar",
+        "localPath": "../assets/icons/city/Black_Sheep_Familiar.png"
+      },
+      {
+        "name": "Goat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a5/Use_Goat_Familiar.png",
+        "alt": "Use Goat Familiar",
+        "localPath": "../assets/icons/city/Goat_Familiar.png"
+      },
+      {
+        "name": "Black Goat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/34/Use_Black_Goat_Familiar.png",
+        "alt": "Use Black Goat Familiar",
+        "localPath": "../assets/icons/city/Black_Goat_Familiar.png"
+      },
+      {
+        "name": "Cow",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/97/Use_Cow_Familiar.png",
+        "alt": "Use Cow Familiar",
+        "localPath": "../assets/icons/city/Cow_Familiar.png"
+      },
+      {
+        "name": "Plow Ox",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/Use_Plow_Ox_Familiar.png",
+        "alt": "Use Plow Ox Familiar",
+        "localPath": "../assets/icons/city/Plow_Ox_Familiar.png"
+      },
+      {
+        "name": "Giant Centipede",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/30/Use_Giant_Centipede_Familiar.png",
+        "alt": "Use Giant Centipede Familiar",
+        "localPath": "../assets/icons/city/Giant_Centipede_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/city/_badge_icon.png"
+  },
+  {
+    "name": "Mighty Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/6/6e/FamiliarBadge_Mighty_Badge.png",
+    "effects": "STR: +2Weapon Attack: +2",
+    "familiars": [
+      {
+        "name": "Black Bear Swordsman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Black_Bear_Swordsman_Familiar.png",
+        "alt": "Use Black Bear Swordsman Familiar",
+        "localPath": "../assets/icons/mighty/Black_Bear_Swordsman_Familiar.png"
+      },
+      {
+        "name": "White Tiger Swordsman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d8/Use_White_Tiger_Swordsman_Familiar.png",
+        "alt": "Use White Tiger Swordsman Familiar",
+        "localPath": "../assets/icons/mighty/White_Tiger_Swordsman_Familiar.png"
+      },
+      {
+        "name": "Eagle Swordsman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f2/Use_Eagle_Swordsman_Familiar.png",
+        "alt": "Use Eagle Swordsman Familiar",
+        "localPath": "../assets/icons/mighty/Eagle_Swordsman_Familiar.png"
+      },
+      {
+        "name": "Male Thief",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8b/Use_Male_Thief_Familiar.png",
+        "alt": "Use Male Thief Familiar",
+        "localPath": "../assets/icons/mighty/Male_Thief_Familiar.png"
+      },
+      {
+        "name": "Female Thief",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c6/Use_Female_Thief_Familiar.png",
+        "alt": "Use Female Thief Familiar",
+        "localPath": "../assets/icons/mighty/Female_Thief_Familiar.png"
+      },
+      {
+        "name": "Censer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7a/Use_Censer_Familiar.png",
+        "alt": "Use Censer Familiar",
+        "localPath": "../assets/icons/mighty/Censer_Familiar.png"
+      },
+      {
+        "name": "Mini Bronze Martial Artist",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4d/Use_Mini_Bronze_Martial_Artist_Familiar.png",
+        "alt": "Use Mini Bronze Martial Artist Familiar",
+        "localPath": "../assets/icons/mighty/Mini_Bronze_Martial_Artist_Familiar.png"
+      },
+      {
+        "name": "Bronze Staffman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/70/Use_Bronze_Staffman_Familiar.png",
+        "alt": "Use Bronze Staffman Familiar",
+        "localPath": "../assets/icons/mighty/Bronze_Staffman_Familiar.png"
+      },
+      {
+        "name": "Silver Spearman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fe/Use_Silver_Spearman_Familiar.png",
+        "alt": "Use Silver Spearman Familiar",
+        "localPath": "../assets/icons/mighty/Silver_Spearman_Familiar.png"
+      },
+      {
+        "name": "Silver Giant",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0d/Use_Silver_Giant_Familiar.png",
+        "alt": "Use Silver Giant Familiar",
+        "localPath": "../assets/icons/mighty/Silver_Giant_Familiar.png"
+      },
+      {
+        "name": "Mini Gold Martial Artist",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c0/Use_Mini_Gold_Martial_Artist_Familiar.png",
+        "alt": "Use Mini Gold Martial Artist Familiar",
+        "localPath": "../assets/icons/mighty/Mini_Gold_Martial_Artist_Familiar.png"
+      },
+      {
+        "name": "Golden Giant",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/bb/Use_Golden_Giant_Familiar.png",
+        "alt": "Use Golden Giant Familiar",
+        "localPath": "../assets/icons/mighty/Golden_Giant_Familiar.png"
+      },
+      {
+        "name": "Martial Artist",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d3/Use_Martial_Artist_Familiar.png",
+        "alt": "Use Martial Artist Familiar",
+        "localPath": "../assets/icons/mighty/Martial_Artist_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/mighty/_badge_icon.png"
+  },
+  {
+    "name": "Exorcism Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/8/84/FamiliarBadge_Exorcism_Badge.png",
+    "effects": "All Stats: +1%",
+    "familiars": [
+      {
+        "name": "Mano",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/02/Use_Mano_Familiar.png",
+        "alt": "Use Mano Familiar",
+        "localPath": "../assets/icons/exorcism/Mano_Familiar.png"
+      },
+      {
+        "name": "Stumpy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/26/Use_Stumpy_Familiar.png",
+        "alt": "Use Stumpy Familiar",
+        "localPath": "../assets/icons/exorcism/Stumpy_Familiar.png"
+      },
+      {
+        "name": "Dyle",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a0/Use_Dyle_Familiar.png",
+        "alt": "Use Dyle Familiar",
+        "localPath": "../assets/icons/exorcism/Dyle_Familiar.png"
+      },
+      {
+        "name": "Eliza",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a6/Use_Eliza_Familiar.png",
+        "alt": "Use Eliza Familiar",
+        "localPath": "../assets/icons/exorcism/Eliza_Familiar.png"
+      },
+      {
+        "name": "Lord Skeleton",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/25/Use_Lord_Skeleton_Familiar.png",
+        "alt": "Use Lord Skeleton Familiar",
+        "localPath": "../assets/icons/exorcism/Lord_Skeleton_Familiar.png"
+      },
+      {
+        "name": "Deo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Deo_Familiar.png",
+        "alt": "Use Deo Familiar",
+        "localPath": "../assets/icons/exorcism/Deo_Familiar.png"
+      },
+      {
+        "name": "D. Roy",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/15/Use_D._Roy_Familiar.png",
+        "alt": "Use D. Roy Familiar",
+        "localPath": "../assets/icons/exorcism/D_Roy_Familiar.png"
+      },
+      {
+        "name": "Rurumo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Rurumo_Familiar.png",
+        "alt": "Use Rurumo Familiar",
+        "localPath": "../assets/icons/exorcism/Rurumo_Familiar.png"
+      },
+      {
+        "name": "Master Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d7/Use_Master_Hoblin_Familiar.png",
+        "alt": "Use Master Hoblin Familiar",
+        "localPath": "../assets/icons/exorcism/Master_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Master Harp",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/09/Use_Master_Harp_Familiar.png",
+        "alt": "Use Master Harp Familiar",
+        "localPath": "../assets/icons/exorcism/Master_Harp_Familiar.png"
+      },
+      {
+        "name": "Timer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/87/Use_Timer_Familiar.png",
+        "alt": "Use Timer Familiar",
+        "localPath": "../assets/icons/exorcism/Timer_Familiar.png"
+      },
+      {
+        "name": "Master Birk",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a2/Use_Master_Birk_Familiar.png",
+        "alt": "Use Master Birk Familiar",
+        "localPath": "../assets/icons/exorcism/Master_Birk_Familiar.png"
+      },
+      {
+        "name": "Kentaurus King",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1d/Use_Kentaurus_King_Familiar.png",
+        "alt": "Use Kentaurus King Familiar",
+        "localPath": "../assets/icons/exorcism/Kentaurus_King_Familiar.png"
+      },
+      {
+        "name": "Coco",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/94/Use_Coco_Familiar.png",
+        "alt": "Use Coco Familiar",
+        "localPath": "../assets/icons/exorcism/Coco_Familiar.png"
+      },
+      {
+        "name": "King Centipede",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/Use_King_Centipede_Familiar.png",
+        "alt": "Use King Centipede Familiar",
+        "localPath": "../assets/icons/exorcism/King_Centipede_Familiar.png"
+      },
+      {
+        "name": "King Sage Cat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/76/Use_King_Sage_Cat_Familiar.png",
+        "alt": "Use King Sage Cat Familiar",
+        "localPath": "../assets/icons/exorcism/King_Sage_Cat_Familiar.png"
+      },
+      {
+        "name": "Pixiemom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/43/Use_Pixiemom_Familiar.png",
+        "alt": "Use Pixiemom Familiar",
+        "localPath": "../assets/icons/exorcism/Pixiemom_Familiar.png"
+      },
+      {
+        "name": "Queen Pepe",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/16/Use_Queen_Pepe_Familiar.png",
+        "alt": "Use Queen Pepe Familiar",
+        "localPath": "../assets/icons/exorcism/Queen_Pepe_Familiar.png"
+      },
+      {
+        "name": "Toy Black Knight",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/56/Use_Toy_Black_Knight_Familiar.png",
+        "alt": "Use Toy Black Knight Familiar",
+        "localPath": "../assets/icons/exorcism/Toy_Black_Knight_Familiar.png"
+      },
+      {
+        "name": "Zeno",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ee/Use_Zeno_Familiar.png",
+        "alt": "Use Zeno Familiar",
+        "localPath": "../assets/icons/exorcism/Zeno_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/exorcism/_badge_icon.png"
+  },
+  {
+    "name": "Tyrant Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/8/8a/FamiliarBadge_Tyrant_Badge.png",
+    "effects": "All Stats: +1%",
+    "familiars": [
+      {
+        "name": "Hoblin Hector",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Hoblin_Hector_Familiar.png",
+        "alt": "Use Hoblin Hector Familiar",
+        "localPath": "../assets/icons/tyrant/Hoblin_Hector_Familiar.png"
+      },
+      {
+        "name": "Elite Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c1/Use_Elite_Hoblin_Familiar.png",
+        "alt": "Use Elite Hoblin Familiar",
+        "localPath": "../assets/icons/tyrant/Elite_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Elite Green Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/60/Use_Elite_Green_Hoblin_Familiar.png",
+        "alt": "Use Elite Green Hoblin Familiar",
+        "localPath": "../assets/icons/tyrant/Elite_Green_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Combat Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/48/Use_Combat_Hoblin_Familiar.png",
+        "alt": "Use Combat Hoblin Familiar",
+        "localPath": "../assets/icons/tyrant/Combat_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Ferocious Hoblin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/47/Use_Ferocious_Hoblin_Familiar.png",
+        "alt": "Use Ferocious Hoblin Familiar",
+        "localPath": "../assets/icons/tyrant/Ferocious_Hoblin_Familiar.png"
+      },
+      {
+        "name": "Rex",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/59/Use_Rex_Familiar.png",
+        "alt": "Use Rex Familiar",
+        "localPath": "../assets/icons/tyrant/Rex_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/tyrant/_badge_icon.png"
+  },
+  {
+    "name": "Lion Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/5/52/FamiliarBadge_Lion_Badge.png",
+    "effects": "Weapon Attack: +1%Max HP: +1%",
+    "familiars": [
+      {
+        "name": "Crocky the Gatekeeper",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4b/Use_Crocky_the_Gatekeeper_Familiar.png",
+        "alt": "Use Crocky the Gatekeeper Familiar",
+        "localPath": "../assets/icons/lion/Crocky_the_Gatekeeper_Familiar.png"
+      },
+      {
+        "name": "Reindeer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c5/Use_Reindeer_Familiar.png",
+        "alt": "Use Reindeer Familiar",
+        "localPath": "../assets/icons/lion/Reindeer_Familiar.png"
+      },
+      {
+        "name": "Blood Reindeer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/84/Use_Blood_Reindeer_Familiar.png",
+        "alt": "Use Blood Reindeer Familiar",
+        "localPath": "../assets/icons/lion/Blood_Reindeer_Familiar.png"
+      },
+      {
+        "name": "Bearwolf",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/50/Use_Bearwolf_Familiar.png",
+        "alt": "Use Bearwolf Familiar",
+        "localPath": "../assets/icons/lion/Bearwolf_Familiar.png"
+      },
+      {
+        "name": "Grey Vulture",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7b/Use_Grey_Vulture_Familiar.png",
+        "alt": "Use Grey Vulture Familiar",
+        "localPath": "../assets/icons/lion/Grey_Vulture_Familiar.png"
+      },
+      {
+        "name": "Castle Golem",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ad/Use_Castle_Golem_Familiar.png",
+        "alt": "Use Castle Golem Familiar",
+        "localPath": "../assets/icons/lion/Castle_Golem_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/lion/_badge_icon.png"
+  },
+  {
+    "name": "Future Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/3/38/FamiliarBadge_Future_Badge.png",
+    "effects": "Weapon Attack: +1%Magic Attack: +1%",
+    "familiars": [
+      {
+        "name": "Mutant Snail",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3f/Use_Mutant_Snail_Familiar.png",
+        "alt": "Use Mutant Snail Familiar",
+        "localPath": "../assets/icons/future/Mutant_Snail_Familiar.png"
+      },
+      {
+        "name": "Mutant Tino",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3b/Use_Mutant_Tino_Familiar.png",
+        "alt": "Use Mutant Tino Familiar",
+        "localPath": "../assets/icons/future/Mutant_Tino_Familiar.png"
+      },
+      {
+        "name": "Mutant Orange Mushroom",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0a/Use_Mutant_Orange_Mushroom_Familiar.png",
+        "alt": "Use Mutant Orange Mushroom Familiar",
+        "localPath": "../assets/icons/future/Mutant_Orange_Mushroom_Familiar.png"
+      },
+      {
+        "name": "Mutant Tiru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/6/60/Use_Mutant_Tiru_Familiar.png",
+        "alt": "Use Mutant Tiru Familiar",
+        "localPath": "../assets/icons/future/Mutant_Tiru_Familiar.png"
+      },
+      {
+        "name": "Mutant Slime",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mutant_Slime_Familiar.png",
+        "alt": "Use Mutant Slime Familiar",
+        "localPath": "../assets/icons/future/Mutant_Slime_Familiar.png"
+      },
+      {
+        "name": "Mutant Tiguru",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/42/Use_Mutant_Tiguru_Familiar.png",
+        "alt": "Use Mutant Tiguru Familiar",
+        "localPath": "../assets/icons/future/Mutant_Tiguru_Familiar.png"
+      },
+      {
+        "name": "Mutant Ribbon Pig",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c3/Use_Mutant_Ribbon_Pig_Familiar.png",
+        "alt": "Use Mutant Ribbon Pig Familiar",
+        "localPath": "../assets/icons/future/Mutant_Ribbon_Pig_Familiar.png"
+      },
+      {
+        "name": "Official Knight A",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d7/Use_Official_Knight_A_Familiar.png",
+        "alt": "Use Official Knight A Familiar",
+        "localPath": "../assets/icons/future/Official_Knight_A_Familiar.png"
+      },
+      {
+        "name": "Dawn",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/96/Use_Dawn_Familiar.png",
+        "alt": "Use Dawn Familiar",
+        "localPath": "../assets/icons/future/Dawn_Familiar.png"
+      },
+      {
+        "name": "Official Knight B",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f3/Use_Official_Knight_B_Familiar.png",
+        "alt": "Use Official Knight B Familiar",
+        "localPath": "../assets/icons/future/Official_Knight_B_Familiar.png"
+      },
+      {
+        "name": "Blaze",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/13/Use_Blaze_Familiar.png",
+        "alt": "Use Blaze Familiar",
+        "localPath": "../assets/icons/future/Blaze_Familiar.png"
+      },
+      {
+        "name": "Official Knight C",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2d/Use_Official_Knight_C_Familiar.png",
+        "alt": "Use Official Knight C Familiar",
+        "localPath": "../assets/icons/future/Official_Knight_C_Familiar.png"
+      },
+      {
+        "name": "Wind",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cd/Use_Wind_Familiar.png",
+        "alt": "Use Wind Familiar",
+        "localPath": "../assets/icons/future/Wind_Familiar.png"
+      },
+      {
+        "name": "Official Knight D",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/49/Use_Official_Knight_D_Familiar.png",
+        "alt": "Use Official Knight D Familiar",
+        "localPath": "../assets/icons/future/Official_Knight_D_Familiar.png"
+      },
+      {
+        "name": "Night",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/03/Use_Night_Familiar.png",
+        "alt": "Use Night Familiar",
+        "localPath": "../assets/icons/future/Night_Familiar.png"
+      },
+      {
+        "name": "Official Knight E",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/97/Use_Official_Knight_E_Familiar.png",
+        "alt": "Use Official Knight E Familiar",
+        "localPath": "../assets/icons/future/Official_Knight_E_Familiar.png"
+      },
+      {
+        "name": "Thunder",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/0b/Use_Thunder_Familiar.png",
+        "alt": "Use Thunder Familiar",
+        "localPath": "../assets/icons/future/Thunder_Familiar.png"
+      },
+      {
+        "name": "Advanced Knight A",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1d/Use_Advanced_Knight_A_Familiar.png",
+        "alt": "Use Advanced Knight A Familiar",
+        "localPath": "../assets/icons/future/Advanced_Knight_A_Familiar.png"
+      },
+      {
+        "name": "Advanced Knight B",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a7/Use_Advanced_Knight_B_Familiar.png",
+        "alt": "Use Advanced Knight B Familiar",
+        "localPath": "../assets/icons/future/Advanced_Knight_B_Familiar.png"
+      },
+      {
+        "name": "Advanced Knight C",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/89/Use_Advanced_Knight_C_Familiar.png",
+        "alt": "Use Advanced Knight C Familiar",
+        "localPath": "../assets/icons/future/Advanced_Knight_C_Familiar.png"
+      },
+      {
+        "name": "Advanced Knight D",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/dc/Use_Advanced_Knight_D_Familiar.png",
+        "alt": "Use Advanced Knight D Familiar",
+        "localPath": "../assets/icons/future/Advanced_Knight_D_Familiar.png"
+      },
+      {
+        "name": "Advanced Knight E",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/36/Use_Advanced_Knight_E_Familiar.png",
+        "alt": "Use Advanced Knight E Familiar",
+        "localPath": "../assets/icons/future/Advanced_Knight_E_Familiar.png"
+      },
+      {
+        "name": "Mihile",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/01/Use_Mihile_Familiar.png",
+        "alt": "Use Mihile Familiar",
+        "localPath": "../assets/icons/future/Mihile_Familiar.png"
+      },
+      {
+        "name": "Oz",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e4/Use_Oz_Familiar.png",
+        "alt": "Use Oz Familiar",
+        "localPath": "../assets/icons/future/Oz_Familiar.png"
+      },
+      {
+        "name": "Irena",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8b/Use_Irena_Familiar.png",
+        "alt": "Use Irena Familiar",
+        "localPath": "../assets/icons/future/Irena_Familiar.png"
+      },
+      {
+        "name": "Eckhart",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9c/Use_Eckhart_Familiar.png",
+        "alt": "Use Eckhart Familiar",
+        "localPath": "../assets/icons/future/Eckhart_Familiar.png"
+      },
+      {
+        "name": "Hawkeye",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/77/Use_Hawkeye_Familiar.png",
+        "alt": "Use Hawkeye Familiar",
+        "localPath": "../assets/icons/future/Hawkeye_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/future/_badge_icon.png"
+  },
+  {
+    "name": "Mariner Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/b/b9/FamiliarBadge_Mariner_Badge.png",
+    "effects": "Jump: +1LUK: +2",
+    "familiars": [
+      {
+        "name": "Ammonite Grumpil",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/54/Use_Ammonite_Grumpil_Familiar.png",
+        "alt": "Use Ammonite Grumpil Familiar",
+        "localPath": "../assets/icons/mariner/Ammonite_Grumpil_Familiar.png"
+      },
+      {
+        "name": "Fish Grumpil",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b4/Use_Fish_Grumpil_Familiar.png",
+        "alt": "Use Fish Grumpil Familiar",
+        "localPath": "../assets/icons/mariner/Fish_Grumpil_Familiar.png"
+      },
+      {
+        "name": "Corrupter Barrel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Corrupter_Barrel_Familiar.png",
+        "alt": "Use Corrupter Barrel Familiar",
+        "localPath": "../assets/icons/mariner/Corrupter_Barrel_Familiar.png"
+      },
+      {
+        "name": "Polluter Barrel",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e7/Use_Polluter_Barrel_Familiar.png",
+        "alt": "Use Polluter Barrel Familiar",
+        "localPath": "../assets/icons/mariner/Polluter_Barrel_Familiar.png"
+      },
+      {
+        "name": "Possibly-Evil Seal",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c9/Use_Possibly-Evil_Seal_Familiar.png",
+        "alt": "Use Possibly-Evil Seal Familiar",
+        "localPath": "../assets/icons/mariner/PossiblyEvil_Seal_Familiar.png"
+      },
+      {
+        "name": "Possibly-Evil Walrus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Possibly-Evil_Walrus_Familiar.png",
+        "alt": "Use Possibly-Evil Walrus Familiar",
+        "localPath": "../assets/icons/mariner/PossiblyEvil_Walrus_Familiar.png"
+      },
+      {
+        "name": "Warmer Bot",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e2/Use_Warmer_Bot_Familiar.png",
+        "alt": "Use Warmer Bot Familiar",
+        "localPath": "../assets/icons/mariner/Warmer_Bot_Familiar.png"
+      },
+      {
+        "name": "Shaver Bot",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ca/Use_Shaver_Bot_Familiar.png",
+        "alt": "Use Shaver Bot Familiar",
+        "localPath": "../assets/icons/mariner/Shaver_Bot_Familiar.png"
+      },
+      {
+        "name": "Demolishizer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/ac/Use_Demolishizer_Familiar.png",
+        "alt": "Use Demolishizer Familiar",
+        "localPath": "../assets/icons/mariner/Demolishizer_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/mariner/_badge_icon.png"
+  },
+  {
+    "name": "Cursed Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/77/FamiliarBadge_Cursed_Badge.png",
+    "effects": "Defense: +2%Critical Rate: +1%",
+    "familiars": [
+      {
+        "name": "Corrupted Veilstone Alpha",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Corrupted_Veilstone_Familiar.png",
+        "alt": "Use Corrupted Veilstone Familiar",
+        "localPath": "../assets/icons/cursed/Corrupted_Veilstone_Alpha_Familiar.png"
+      },
+      {
+        "name": "Corrupted Veilstone Beta",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Corrupted_Veilstone_Familiar.png",
+        "alt": "Use Corrupted Veilstone Familiar",
+        "localPath": "../assets/icons/cursed/Corrupted_Veilstone_Beta_Familiar.png"
+      },
+      {
+        "name": "Corrupted Veilstone Gamma",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Corrupted_Veilstone_Familiar.png",
+        "alt": "Use Corrupted Veilstone Familiar",
+        "localPath": "../assets/icons/cursed/Corrupted_Veilstone_Gamma_Familiar.png"
+      },
+      {
+        "name": "Corrupted Veilstone Delta",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Corrupted_Veilstone_Familiar.png",
+        "alt": "Use Corrupted Veilstone Familiar",
+        "localPath": "../assets/icons/cursed/Corrupted_Veilstone_Delta_Familiar.png"
+      },
+      {
+        "name": "Conjured Veilprey",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3d/Use_Conjured_Veilprey_Familiar.png",
+        "alt": "Use Conjured Veilprey Familiar",
+        "localPath": "../assets/icons/cursed/Conjured_Veilprey_Familiar.png"
+      },
+      {
+        "name": "Corrupted Wardlock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8f/Use_Wardlock_Familiar.png",
+        "alt": "Use Wardlock Familiar",
+        "localPath": "../assets/icons/cursed/Corrupted_Wardlock_Familiar.png"
+      },
+      {
+        "name": "Mutated Wardlock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8f/Use_Wardlock_Familiar.png",
+        "alt": "Use Wardlock Familiar",
+        "localPath": "../assets/icons/cursed/Mutated_Wardlock_Familiar.png"
+      },
+      {
+        "name": "Wardlock",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/8f/Use_Wardlock_Familiar.png",
+        "alt": "Use Wardlock Familiar",
+        "localPath": "../assets/icons/cursed/Wardlock_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/cursed/_badge_icon.png"
+  },
+  {
+    "name": "Commerci Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/7/7d/FamiliarBadge_Commerci_Badge.png",
+    "effects": "Defense: +2%Critical Rate: +1%",
+    "familiars": [
+      {
+        "name": "Gray Tomcat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/ec/Use_Gray_Tomcat_Familiar.png",
+        "alt": "Use Gray Tomcat Familiar",
+        "localPath": "../assets/icons/commerci/Gray_Tomcat_Familiar.png"
+      },
+      {
+        "name": "Calico Timcat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Calico_Timcat_Familiar.png",
+        "alt": "Use Calico Timcat Familiar",
+        "localPath": "../assets/icons/commerci/Calico_Timcat_Familiar.png"
+      },
+      {
+        "name": "Cutthroat Delfino",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9a/Use_Cutthroat_Delfino_Familiar.png",
+        "alt": "Use Cutthroat Delfino Familiar",
+        "localPath": "../assets/icons/commerci/Cutthroat_Delfino_Familiar.png"
+      },
+      {
+        "name": "Ripclaw Delfino",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cb/Use_Ripclaw_Delfino_Familiar.png",
+        "alt": "Use Ripclaw Delfino Familiar",
+        "localPath": "../assets/icons/commerci/Ripclaw_Delfino_Familiar.png"
+      },
+      {
+        "name": "Sureshot Delfino",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/17/Use_Sureshot_Delfino_Familiar.png",
+        "alt": "Use Sureshot Delfino Familiar",
+        "localPath": "../assets/icons/commerci/Sureshot_Delfino_Familiar.png"
+      },
+      {
+        "name": "Voodoo Delfino",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fe/Use_Voodoo_Delfino_Familiar.png",
+        "alt": "Use Voodoo Delfino Familiar",
+        "localPath": "../assets/icons/commerci/Voodoo_Delfino_Familiar.png"
+      },
+      {
+        "name": "Dirty Lupo",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/33/Use_Dirty_Lupo_Familiar.png",
+        "alt": "Use Dirty Lupo Familiar",
+        "localPath": "../assets/icons/commerci/Dirty_Lupo_Familiar.png"
+      },
+      {
+        "name": "Blood Pirate Swabby",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/de/Use_Blood_Pirate_Swabby_Familiar.png",
+        "alt": "Use Blood Pirate Swabby Familiar",
+        "localPath": "../assets/icons/commerci/Blood_Pirate_Swabby_Familiar.png"
+      },
+      {
+        "name": "Blood Pirate Lookout",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4b/Use_Blood_Pirate_Lookout_Familiar.png",
+        "alt": "Use Blood Pirate Lookout Familiar",
+        "localPath": "../assets/icons/commerci/Blood_Pirate_Lookout_Familiar.png"
+      },
+      {
+        "name": "Nightcutter Assassin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a3/Use_Nightcutter_Assassin_Familiar.png",
+        "alt": "Use Nightcutter Assassin Familiar",
+        "localPath": "../assets/icons/commerci/Nightcutter_Assassin_Familiar.png"
+      },
+      {
+        "name": "Nightwhip Assassin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Nightwhip_Assassin_Familiar.png",
+        "alt": "Use Nightwhip Assassin Familiar",
+        "localPath": "../assets/icons/commerci/Nightwhip_Assassin_Familiar.png"
+      },
+      {
+        "name": "Nightpriest Assassin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/7a/Use_Nightpriest_Assassin_Familiar.png",
+        "alt": "Use Nightpriest Assassin Familiar",
+        "localPath": "../assets/icons/commerci/Nightpriest_Assassin_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/commerci/_badge_icon.png"
+  },
+  {
+    "name": "Mushking Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/b/b1/FamiliarBadge_Mushking_Badge.png",
+    "effects": "Weapon Attack: +2Magic Attack: +2",
+    "familiars": [
+      {
+        "name": "Mushroom Chandelier",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/12/Use_Mushroom_Chandelier_Familiar.png",
+        "alt": "Use Mushroom Chandelier Familiar",
+        "localPath": "../assets/icons/mushking/Mushroom_Chandelier_Familiar.png"
+      },
+      {
+        "name": "Mushroom Knight Armor",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4f/Use_Mushroom_Knight_Armor_Familiar.png",
+        "alt": "Use Mushroom Knight Armor Familiar",
+        "localPath": "../assets/icons/mushking/Mushroom_Knight_Armor_Familiar.png"
+      },
+      {
+        "name": "Exhausted Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/18/Use_Exhausted_Viking_Familiar.png",
+        "alt": "Use Exhausted Viking Familiar",
+        "localPath": "../assets/icons/mushking/Exhausted_Viking_Familiar.png"
+      },
+      {
+        "name": "Tired Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/84/Use_Tired_Viking_Familiar.png",
+        "alt": "Use Tired Viking Familiar",
+        "localPath": "../assets/icons/mushking/Tired_Viking_Familiar.png"
+      },
+      {
+        "name": "Warm Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/14/Use_Warm_Viking_Familiar.png",
+        "alt": "Use Warm Viking Familiar",
+        "localPath": "../assets/icons/mushking/Warm_Viking_Familiar.png"
+      },
+      {
+        "name": "Generous Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1c/Use_Generous_Viking_Familiar.png",
+        "alt": "Use Generous Viking Familiar",
+        "localPath": "../assets/icons/mushking/Generous_Viking_Familiar.png"
+      },
+      {
+        "name": "Solemn Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/95/Use_Solemn_Viking_Familiar.png",
+        "alt": "Use Solemn Viking Familiar",
+        "localPath": "../assets/icons/mushking/Solemn_Viking_Familiar.png"
+      },
+      {
+        "name": "Serious Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b0/Use_Serious_Viking_Familiar.png",
+        "alt": "Use Serious Viking Familiar",
+        "localPath": "../assets/icons/mushking/Serious_Viking_Familiar.png"
+      },
+      {
+        "name": "Black Viking",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/50/Use_Black_Viking_Familiar.png",
+        "alt": "Use Black Viking Familiar",
+        "localPath": "../assets/icons/mushking/Black_Viking_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/mushking/_badge_icon.png"
+  },
+  {
+    "name": "Darkness Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/2/24/FamiliarBadge_Darkness_Badge.png",
+    "effects": "Damage: +1%",
+    "familiars": [
+      {
+        "name": "Lotus Familiar (Phase 2)",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/3a/Use_Lotus_Familiar.png",
+        "alt": "Use Lotus Familiar",
+        "localPath": "../assets/icons/darkness/Lotus_Familiar_Phase_2_Familiar.png"
+      },
+      {
+        "name": "Lotus Familiar (Phase 3)",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/01/Use_Lotus_%282%29_Familiar.png",
+        "alt": "Use Lotus (2) Familiar",
+        "localPath": "../assets/icons/darkness/Lotus_Familiar_Phase_3_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/darkness/_badge_icon.png"
+  },
+  {
+    "name": "Dragon Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/0/0b/FamiliarBadge_Dragon_Badge.png",
+    "effects": "Max HP: +5Ignored Enemy Defense: +3%",
+    "familiars": [
+      {
+        "name": "Alang",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/59/Use_Alang_Familiar.png",
+        "alt": "Use Alang Familiar",
+        "localPath": "../assets/icons/dragon/Alang_Familiar.png"
+      },
+      {
+        "name": "Bonsun",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Bonsun_Familiar.png",
+        "alt": "Use Bonsun Familiar",
+        "localPath": "../assets/icons/dragon/Bonsun_Familiar.png"
+      },
+      {
+        "name": "Wukong",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cf/Use_Wukong_Familiar.png",
+        "alt": "Use Wukong Familiar",
+        "localPath": "../assets/icons/dragon/Wukong_Familiar.png"
+      },
+      {
+        "name": "Sondal",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/ce/Use_Sondal_Familiar.png",
+        "alt": "Use Sondal Familiar",
+        "localPath": "../assets/icons/dragon/Sondal_Familiar.png"
+      },
+      {
+        "name": "Gold Dragon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/44/Use_Gold_Dragon_Familiar.png",
+        "alt": "Use Gold Dragon Familiar",
+        "localPath": "../assets/icons/dragon/Gold_Dragon_Familiar.png"
+      },
+      {
+        "name": "Red Tiger",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/9f/Use_Red_Tiger_Familiar.png",
+        "alt": "Use Red Tiger Familiar",
+        "localPath": "../assets/icons/dragon/Red_Tiger_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/dragon/_badge_icon.png"
+  },
+  {
+    "name": "Void Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/3/3d/FamiliarBadge_Void_Badge.png",
+    "effects": "Magic Attack: +1%Magic Attack: +2",
+    "familiars": [
+      {
+        "name": "Soot Beast",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/0/08/Use_Soot_Beast_Familiar.png",
+        "alt": "Use Soot Beast Familiar",
+        "localPath": "../assets/icons/void/Soot_Beast_Familiar.png"
+      },
+      {
+        "name": "Soot Talon",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4e/Use_Soot_Talon_Familiar.png",
+        "alt": "Use Soot Talon Familiar",
+        "localPath": "../assets/icons/void/Soot_Talon_Familiar.png"
+      },
+      {
+        "name": "Soot Slug",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/e/e6/Use_Soot_Slug_Familiar.png",
+        "alt": "Use Soot Slug Familiar",
+        "localPath": "../assets/icons/void/Soot_Slug_Familiar.png"
+      },
+      {
+        "name": "Soot Core",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4e/Use_Soot_Core_Familiar.png",
+        "alt": "Use Soot Core Familiar",
+        "localPath": "../assets/icons/void/Soot_Core_Familiar.png"
+      },
+      {
+        "name": "Crushing Glare",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2d/Use_Crushing_Glare_Familiar.png",
+        "alt": "Use Crushing Glare Familiar",
+        "localPath": "../assets/icons/void/Crushing_Glare_Familiar.png"
+      },
+      {
+        "name": "Burst Glare",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/48/Use_Burst_Glare_Familiar.png",
+        "alt": "Use Burst Glare Familiar",
+        "localPath": "../assets/icons/void/Burst_Glare_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/void/_badge_icon.png"
+  },
+  {
+    "name": "Labyrinth Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/8/8e/FamiliarBadge_Labyrinth_Badge.png",
+    "effects": "All Stats: +1%Damage: +1%",
+    "familiars": [
+      {
+        "name": "Entangled Fragment",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c9/Use_Entangled_Fragment_Familiar.png",
+        "alt": "Use Entangled Fragment Familiar",
+        "localPath": "../assets/icons/labyrinth/Entangled_Fragment_Familiar.png"
+      },
+      {
+        "name": "Faith Fragment",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Faith_Fragment_Familiar.png",
+        "alt": "Use Faith Fragment Familiar",
+        "localPath": "../assets/icons/labyrinth/Faith_Fragment_Familiar.png"
+      },
+      {
+        "name": "Dark Miscreation",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/59/Use_Dark_Miscreation_Familiar.png",
+        "alt": "Use Dark Miscreation Familiar",
+        "localPath": "../assets/icons/labyrinth/Dark_Miscreation_Familiar.png"
+      },
+      {
+        "name": "Dark Construct",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a7/Use_Dark_Construct_Familiar.png",
+        "alt": "Use Dark Construct Familiar",
+        "localPath": "../assets/icons/labyrinth/Dark_Construct_Familiar.png"
+      },
+      {
+        "name": "Despairing Wing",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f4/Use_Despairing_Wing_Familiar.png",
+        "alt": "Use Despairing Wing Familiar",
+        "localPath": "../assets/icons/labyrinth/Despairing_Wing_Familiar.png"
+      },
+      {
+        "name": "Despairing Blade",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d1/Use_Despairing_Blade_Familiar.png",
+        "alt": "Use Despairing Blade Familiar",
+        "localPath": "../assets/icons/labyrinth/Despairing_Blade_Familiar.png"
+      },
+      {
+        "name": "Silent Knight",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/84/Use_Silent_Knight_Familiar.png",
+        "alt": "Use Silent Knight Familiar",
+        "localPath": "../assets/icons/labyrinth/Silent_Knight_Familiar.png"
+      },
+      {
+        "name": "Silent Scout",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/83/Use_Silent_Scout_Familiar.png",
+        "alt": "Use Silent Scout Familiar",
+        "localPath": "../assets/icons/labyrinth/Silent_Scout_Familiar.png"
+      },
+      {
+        "name": "Silent Rogue",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/54/Use_Silent_Rogue_Familiar.png",
+        "alt": "Use Silent Rogue Familiar",
+        "localPath": "../assets/icons/labyrinth/Silent_Rogue_Familiar.png"
+      },
+      {
+        "name": "Silent Watchman",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5a/Use_Silent_Watchman_Familiar.png",
+        "alt": "Use Silent Watchman Familiar",
+        "localPath": "../assets/icons/labyrinth/Silent_Watchman_Familiar.png"
+      },
+      {
+        "name": "Silent Assassin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fe/Use_Silent_Assassin_Familiar.png",
+        "alt": "Use Silent Assassin Familiar",
+        "localPath": "../assets/icons/labyrinth/Silent_Assassin_Familiar.png"
+      },
+      {
+        "name": "Despairing Soul",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a3/Use_Despairing_Soul_Familiar.png",
+        "alt": "Use Despairing Soul Familiar",
+        "localPath": "../assets/icons/labyrinth/Despairing_Soul_Familiar.png"
+      },
+      {
+        "name": "Despairing Prisoner",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fd/Use_Despairing_Prisoner_Familiar.png",
+        "alt": "Use Despairing Prisoner Familiar",
+        "localPath": "../assets/icons/labyrinth/Despairing_Prisoner_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/labyrinth/_badge_icon.png"
+  },
+  {
+    "name": "Apocalypse Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/8/8d/FamiliarBadge_Apocalypse_Badge.png",
+    "effects": "Weapon Attack: +1%Weapon Attack: +2",
+    "familiars": [
+      {
+        "name": "Ancestion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/46/Use_Ancestion_Familiar.png",
+        "alt": "Use Ancestion Familiar",
+        "localPath": "../assets/icons/apocalypse/Ancestion_Familiar.png"
+      },
+      {
+        "name": "Transcendion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/cd/Use_Transcendion_Familiar.png",
+        "alt": "Use Transcendion Familiar",
+        "localPath": "../assets/icons/apocalypse/Transcendion_Familiar.png"
+      },
+      {
+        "name": "Ascendion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/de/Use_Ascendion_Familiar.png",
+        "alt": "Use Ascendion Familiar",
+        "localPath": "../assets/icons/apocalypse/Ascendion_Familiar.png"
+      },
+      {
+        "name": "Foreberion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/56/Use_Foreberion_Familiar.png",
+        "alt": "Use Foreberion Familiar",
+        "localPath": "../assets/icons/apocalypse/Foreberion_Familiar.png"
+      },
+      {
+        "name": "Embrion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a5/Use_Embrion_Familiar.png",
+        "alt": "Use Embrion Familiar",
+        "localPath": "../assets/icons/apocalypse/Embrion_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/apocalypse/_badge_icon.png"
+  },
+  {
+    "name": "Ocean Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/e/e5/FamiliarBadge_Ocean_Badge.png",
+    "effects": "Critical Rate: +1%Damage: +1%",
+    "familiars": [
+      {
+        "name": "Ahtuin",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b6/Use_Ahtuin_Familiar.png",
+        "alt": "Use Ahtuin Familiar",
+        "localPath": "../assets/icons/ocean/Ahtuin_Familiar.png"
+      },
+      {
+        "name": "Atus",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/71/Use_Atus_Familiar.png",
+        "alt": "Use Atus Familiar",
+        "localPath": "../assets/icons/ocean/Atus_Familiar.png"
+      },
+      {
+        "name": "Bellalion",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f7/Use_Bellalion_Familiar.png",
+        "alt": "Use Bellalion Familiar",
+        "localPath": "../assets/icons/ocean/Bellalion_Familiar.png"
+      },
+      {
+        "name": "Bellalis",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/be/Use_Bellalis_Familiar.png",
+        "alt": "Use Bellalis Familiar",
+        "localPath": "../assets/icons/ocean/Bellalis_Familiar.png"
+      },
+      {
+        "name": "Aranya",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/8/80/Use_Aranya_Familiar.png",
+        "alt": "Use Aranya Familiar",
+        "localPath": "../assets/icons/ocean/Aranya_Familiar.png"
+      },
+      {
+        "name": "Aranea",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/f1/Use_Aranea_Familiar.png",
+        "alt": "Use Aranea Familiar",
+        "localPath": "../assets/icons/ocean/Aranea_Familiar.png"
+      },
+      {
+        "name": "Keeper of Light",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/5/5c/Use_Keeper_of_Light_Familiar.png",
+        "alt": "Use Keeper of Light Familiar",
+        "localPath": "../assets/icons/ocean/Keeper_of_Light_Familiar.png"
+      },
+      {
+        "name": "Keeper of Darkness",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/1/1c/Use_Keeper_of_Darkness_Familiar.png",
+        "alt": "Use Keeper of Darkness Familiar",
+        "localPath": "../assets/icons/ocean/Keeper_of_Darkness_Familiar.png"
+      },
+      {
+        "name": "Light Executor",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/38/Use_Light_Executor_Familiar.png",
+        "alt": "Use Light Executor Familiar",
+        "localPath": "../assets/icons/ocean/Light_Executor_Familiar.png"
+      },
+      {
+        "name": "Dark Executor",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/9/90/Use_Dark_Executor_Familiar.png",
+        "alt": "Use Dark Executor Familiar",
+        "localPath": "../assets/icons/ocean/Dark_Executor_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/ocean/_badge_icon.png"
+  },
+  {
+    "name": "Swamp Badge",
+    "badgeIconSrc": "https://static.wikia.nocookie.net/maplestory/images/0/0c/FamiliarBadge_Swamp_Badge.png",
+    "effects": "All Stats: +1%Weapon Attack: +2",
+    "familiars": [
+      {
+        "name": "Xenoroid Echo Type A",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/d/d7/Use_Xenoroid_Echo_Type_A_Familiar.png",
+        "alt": "Use Xenoroid Echo Type A Familiar",
+        "localPath": "../assets/icons/swamp/Xenoroid_Echo_Type_A_Familiar.png"
+      },
+      {
+        "name": "Xenoroid Echo Type B",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/2e/Use_Xenoroid_Echo_Type_B_Familiar.png",
+        "alt": "Use Xenoroid Echo Type B Familiar",
+        "localPath": "../assets/icons/swamp/Xenoroid_Echo_Type_B_Familiar.png"
+      },
+      {
+        "name": "Nameless Cat",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/b/b1/Use_Nameless_Cat_Familiar.png",
+        "alt": "Use Nameless Cat Familiar",
+        "localPath": "../assets/icons/swamp/Nameless_Cat_Familiar.png"
+      },
+      {
+        "name": "Powerful Gangster",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/4/4c/Use_Powerful_Gangster_Familiar.png",
+        "alt": "Use Powerful Gangster Familiar",
+        "localPath": "../assets/icons/swamp/Powerful_Gangster_Familiar.png"
+      },
+      {
+        "name": "Strong Gangster",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/2/24/Use_Strong_Gangster_Familiar.png",
+        "alt": "Use Strong Gangster Familiar",
+        "localPath": "../assets/icons/swamp/Strong_Gangster_Familiar.png"
+      },
+      {
+        "name": "Blue Shadow",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/79/Use_Blue_Shadow_Familiar.png",
+        "alt": "Use Blue Shadow Familiar",
+        "localPath": "../assets/icons/swamp/Blue_Shadow_Familiar.png"
+      },
+      {
+        "name": "Red Shadow",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/f/fd/Use_Red_Shadow_Familiar.png",
+        "alt": "Use Red Shadow Familiar",
+        "localPath": "../assets/icons/swamp/Red_Shadow_Familiar.png"
+      },
+      {
+        "name": "Experiment Gone Wrong",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/a/a6/Use_Experiment_Gone_Wrong_Familiar.png",
+        "alt": "Use Experiment Gone Wrong Familiar",
+        "localPath": "../assets/icons/swamp/Experiment_Gone_Wrong_Familiar.png"
+      },
+      {
+        "name": "Big Experiment Gone Wrong",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/7/77/Use_Big_Experiment_Gone_Wrong_Familiar.png",
+        "alt": "Use Big Experiment Gone Wrong Familiar",
+        "localPath": "../assets/icons/swamp/Big_Experiment_Gone_Wrong_Familiar.png"
+      },
+      {
+        "name": "Thralled Guard",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c3/Use_Thralled_Guard_Familiar.png",
+        "alt": "Use Thralled Guard Familiar",
+        "localPath": "../assets/icons/swamp/Thralled_Guard_Familiar.png"
+      },
+      {
+        "name": "Thralled Warhammer Knight",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c1/Use_Thralled_Warhammer_Knight_Familiar.png",
+        "alt": "Use Thralled Warhammer Knight Familiar",
+        "localPath": "../assets/icons/swamp/Thralled_Warhammer_Knight_Familiar.png"
+      },
+      {
+        "name": "Thralled Wizard",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/c/c3/Use_Thralled_Wizard_Familiar.png",
+        "alt": "Use Thralled Wizard Familiar",
+        "localPath": "../assets/icons/swamp/Thralled_Wizard_Familiar.png"
+      },
+      {
+        "name": "Thralled Archer",
+        "src": "https://static.wikia.nocookie.net/maplestory/images/3/32/Use_Thralled_Archer_Familiar.png",
+        "alt": "Use Thralled Archer Familiar",
+        "localPath": "../assets/icons/swamp/Thralled_Archer_Familiar.png"
+      }
+    ],
+    "badgeIconLocal": "../assets/icons/swamp/_badge_icon.png"
+  }
+]

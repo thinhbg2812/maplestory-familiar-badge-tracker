@@ -50,7 +50,7 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
   const cv = cvInstance.value
   if (!cv) throw new Error('OpenCV not loaded')
 
-  const { threshold = 0.7, scales = [0.5, 0.75, 1.0, 1.25, 1.5] } = opts
+  const { threshold = 0.7, scales = [0.5, 0.75, 1.0, 1.25, 1.5], roiTopRatio = 0.6 } = opts
 
   const src = cv.imread(sourceEl)
   const tmpl = cv.imread(templateEl)
@@ -78,8 +78,17 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
       cv.resize(tmplGray, scaledTmpl, dsize, 0, 0, cv.INTER_AREA)
     }
 
+    // Crop top portion of template (monster artwork, ignoring bottom text/UI)
+    const cropH = Math.floor(scaledTmpl.rows * roiTopRatio)
+    let croppedTmpl = scaledTmpl
+    if (cropH >= 4 && cropH < scaledTmpl.rows) {
+      const roiRect = new cv.Rect(0, 0, scaledTmpl.cols, cropH)
+      croppedTmpl = scaledTmpl.roi(roiRect)
+    }
+
     // Template must be smaller than source
-    if (scaledTmpl.rows > srcGray.rows || scaledTmpl.cols > srcGray.cols) {
+    if (croppedTmpl.rows > srcGray.rows || croppedTmpl.cols > srcGray.cols) {
+      if (croppedTmpl !== scaledTmpl) croppedTmpl.delete()
       if (scale !== 1.0) {
         scaledTmpl.delete()
       }
@@ -87,9 +96,10 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
     }
 
     const result = new cv.Mat()
-    cv.matchTemplate(srcGray, scaledTmpl, result, cv.TM_CCOEFF_NORMED)
+    cv.matchTemplate(srcGray, croppedTmpl, result, cv.TM_CCOEFF_NORMED)
 
     // Find ALL locations above threshold (not just the single best)
+    // Use full (uncropped) template dimensions for bounding box
     const tw = scaledTmpl.cols
     const th = scaledTmpl.rows
     
@@ -117,6 +127,7 @@ function matchTemplate(sourceEl, templateEl, opts = {}) {
     }
 
     result.delete()
+    if (croppedTmpl !== scaledTmpl) croppedTmpl.delete()
     if (scale !== 1.0) {
       scaledTmpl.delete()
     }
