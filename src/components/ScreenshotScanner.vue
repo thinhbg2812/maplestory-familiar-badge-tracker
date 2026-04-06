@@ -137,7 +137,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onActivated } from 'vue'
 import { useOpenCV } from '../composables/useOpenCV.js'
 import { useStorage } from '../composables/useStorage.js'
 import { useBadgeTracker } from '../composables/useBadgeTracker.js'
@@ -147,6 +147,10 @@ import { badges } from '../data/badges.js'
 let testImageUrl = '/test-images/test-have-starter.png'
 
 const { cvReady, cvLoading, cvError, loadOpenCV, scanScreenshot } = useOpenCV()
+
+// Auto-load OpenCV when scanner is opened
+onMounted(() => { if (!cvReady.value && !cvLoading.value) initCV() })
+onActivated(() => { if (!cvReady.value && !cvLoading.value) initCV() })
 const { getAllReferenceImagesWithBundled, getReferenceImage, getReferenceCountWithBundled, getBundledIcon, getSettings } = useStorage()
 const { isCollected, bulkSetCollected } = useBadgeTracker()
 

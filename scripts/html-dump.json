@@ -1,0 +1,348 @@
+{
+  "tableCount": 6,
+  "tables": [
+    {
+      "index": 1,
+      "classes": "wikitable",
+      "rowCount": 44,
+      "imgCount": 574,
+      "rows": [
+        {
+          "rowIndex": 0,
+          "cellCount": 3,
+          "cells": [
+            {
+              "cellIndex": 0,
+              "tag": "TH",
+              "colspan": "1",
+              "text": "Picture and Name",
+              "innerHTML": "Picture and Name\n",
+              "imgCount": 0,
+              "imgs": []
+            },
+            {
+              "cellIndex": 1,
+              "tag": "TH",
+              "colspan": "1",
+              "text": "Monsters",
+              "innerHTML": "Monsters\n",
+              "imgCount": 0,
+              "imgs": []
+            },
+            {
+              "cellIndex": 2,
+              "tag": "TH",
+              "colspan": "1",
+              "text": "Effects",
+              "innerHTML": "Effects\n",
+              "imgCount": 0,
+              "imgs": []
+            }
+          ]
+        },
+        {
+          "rowIndex": 1,
+          "cellCount": 3,
+          "cells": [
+            {
+              "cellIndex": 0,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Starter Badge",
+              "innerHTML": "<span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/2/2f/FamiliarBadge_Starter_Badge.png/revision/latest?cb=20200424055920\" class=\"mw-file-description image\"><img alt=\"FamiliarBadge Starter Badge\" src=\"https://static.wikia.nocookie.net/maplestory/images/2/2f/FamiliarBadge_Starter_Badge.png/revision/latest?cb=20200424055920\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"97\" class=\"mw-file-element\" data-image-name=\"FamiliarBadge Starter ",
+              "imgCount": 1,
+              "imgs": [
+                {
+                  "alt": "FamiliarBadge Starter Badge",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/2/2f/FamiliarBadge_Starter_Badge.png/revision/latest?cb=20200424055920",
+                  "width": "96",
+                  "height": "97"
+                }
+              ]
+            },
+            {
+              "cellIndex": 1,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Snail Familiar\n Blue Snail Familiar\n Spore Familiar\n Red Snail Familiar",
+              "innerHTML": "\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/6/63/Use_Snail_Familiar.png/revision/latest?cb=20200525224745\" class=\"mw-file-description image\"><img alt=\"Use Snail Familiar\" src=\"https://static.wikia.nocookie.net/maplestory/images/6/63/Use_Snail_Familiar.png/revision/latest?cb=20200525224745\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"32\" class=\"mw-file-element\" data-image-name=\"Use Snail Familiar.png\" data-image-key=\"Use_S",
+              "imgCount": 4,
+              "imgs": [
+                {
+                  "alt": "Use Snail Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/6/63/Use_Snail_Familiar.png/revision/latest?cb=20200525224745",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Blue Snail Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/2/26/Use_Blue_Snail_Familiar.png/revision/latest?cb=20200525065530",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Spore Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/5/56/Use_Spore_Familiar.png/revision/latest?cb=20200525224839",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Red Snail Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/b/ba/Use_Red_Snail_Familiar.png/revision/latest?cb=20200525225226",
+                  "width": "24",
+                  "height": "32"
+                }
+              ]
+            },
+            {
+              "cellIndex": 2,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Max HP: +5",
+              "innerHTML": "Max HP: +5\n",
+              "imgCount": 0,
+              "imgs": []
+            }
+          ]
+        },
+        {
+          "rowIndex": 2,
+          "cellCount": 3,
+          "cells": [
+            {
+              "cellIndex": 0,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Snowflake Badge",
+              "innerHTML": "<span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/3/31/FamiliarBadge_Snowflake_Badge.png/revision/latest?cb=20200424061206\" class=\"mw-file-description image\"><img alt=\"FamiliarBadge Snowflake Badge\" src=\"https://static.wikia.nocookie.net/maplestory/images/3/31/FamiliarBadge_Snowflake_Badge.png/revision/latest?cb=20200424061206\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"97\" class=\"mw-file-element lazyloaded\" data-image-name=\"Famil",
+              "imgCount": 1,
+              "imgs": [
+                {
+                  "alt": "FamiliarBadge Snowflake Badge",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/3/31/FamiliarBadge_Snowflake_Badge.png/revision/latest?cb=20200424061206",
+                  "width": "96",
+                  "height": "97"
+                }
+              ]
+            },
+            {
+              "cellIndex": 1,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Muru Familiar\n Murupa Familiar\n Murupia Familiar\n Murumuru Familiar\n Murukun Familiar",
+              "innerHTML": "\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/2/27/Use_Muru_Familiar.png/revision/latest?cb=20200520165243\" class=\"mw-file-description image\"><img alt=\"Use Muru Familiar\" src=\"https://static.wikia.nocookie.net/maplestory/images/2/27/Use_Muru_Familiar.png/revision/latest?cb=20200520165243\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"32\" class=\"mw-file-element lazyloaded\" data-image-name=\"Use Muru Familiar.png\" data-image-key",
+              "imgCount": 5,
+              "imgs": [
+                {
+                  "alt": "Use Muru Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/2/27/Use_Muru_Familiar.png/revision/latest?cb=20200520165243",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Murupa Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/3/34/Use_Murupa_Familiar.png/revision/latest?cb=20200520165250",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Murupia Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/9/91/Use_Murupia_Familiar.png/revision/latest?cb=20200520165255",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Murumuru Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/2/22/Use_Murumuru_Familiar.png/revision/latest?cb=20200520165308",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Murukun Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/a/ad/Use_Murukun_Familiar.png/revision/latest?cb=20200520165314",
+                  "width": "24",
+                  "height": "32"
+                }
+              ]
+            },
+            {
+              "cellIndex": 2,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Max HP: +5",
+              "innerHTML": "Max HP: +5\n",
+              "imgCount": 0,
+              "imgs": []
+            }
+          ]
+        },
+        {
+          "rowIndex": 3,
+          "cellCount": 3,
+          "cells": [
+            {
+              "cellIndex": 0,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Oppressor Badge",
+              "innerHTML": "<span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/4/47/FamiliarBadge_Oppressor_Badge.png/revision/latest?cb=20200424062455\" class=\"mw-file-description image\"><img alt=\"FamiliarBadge Oppressor Badge\" src=\"https://static.wikia.nocookie.net/maplestory/images/4/47/FamiliarBadge_Oppressor_Badge.png/revision/latest?cb=20200424062455\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"97\" class=\"mw-file-element lazyloaded\" data-image-name=\"Famil",
+              "imgCount": 1,
+              "imgs": [
+                {
+                  "alt": "FamiliarBadge Oppressor Badge",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/4/47/FamiliarBadge_Oppressor_Badge.png/revision/latest?cb=20200424062455",
+                  "width": "96",
+                  "height": "97"
+                }
+              ]
+            },
+            {
+              "cellIndex": 1,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Potted Sprout Familiar\n Potted Morning Glory Familiar\n Grape Juice Bottle Familiar",
+              "innerHTML": "\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Potted_Sprout_Familiar.png/revision/latest?cb=20200525225433\" class=\"mw-file-description image\"><img alt=\"Use Potted Sprout Familiar\" src=\"https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Potted_Sprout_Familiar.png/revision/latest?cb=20200525225433\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"32\" class=\"mw-file-element lazyloaded\" data-image-name=\"Use Potted",
+              "imgCount": 3,
+              "imgs": [
+                {
+                  "alt": "Use Potted Sprout Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Potted_Sprout_Familiar.png/revision/latest?cb=20200525225433",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Potted Morning Glory Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/7/7a/Use_Potted_Morning_Glory_Familiar.png/revision/latest?cb=20200525225438",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Grape Juice Bottle Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/a/a3/Use_Grape_Juice_Bottle_Familiar.png/revision/latest?cb=20200525231125",
+                  "width": "24",
+                  "height": "32"
+                }
+              ]
+            },
+            {
+              "cellIndex": 2,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Max HP: +5",
+              "innerHTML": "Max HP: +5\n",
+              "imgCount": 0,
+              "imgs": []
+            }
+          ]
+        },
+        {
+          "rowIndex": 4,
+          "cellCount": 3,
+          "cells": [
+            {
+              "cellIndex": 0,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Shadow Badge",
+              "innerHTML": "<span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/c/cf/FamiliarBadge_Shadow_Badge.png/revision/latest?cb=20200424065102\" class=\"mw-file-description image\"><img alt=\"FamiliarBadge Shadow Badge\" src=\"https://static.wikia.nocookie.net/maplestory/images/c/cf/FamiliarBadge_Shadow_Badge.png/revision/latest?cb=20200424065102\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"97\" class=\"mw-file-element lazyloaded\" data-image-name=\"FamiliarBadge ",
+              "imgCount": 1,
+              "imgs": [
+                {
+                  "alt": "FamiliarBadge Shadow Badge",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/c/cf/FamiliarBadge_Shadow_Badge.png/revision/latest?cb=20200424065102",
+                  "width": "96",
+                  "height": "97"
+                }
+              ]
+            },
+            {
+              "cellIndex": 1,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "Octopus Familiar\n Stirge Familiar\n Jr. Wraith Familiar\n Wraith Familiar\n Shade Familiar\n Jr. Necki Familiar\n Ligator Familiar\n Croco Familiar\n Muddy Swamp Monster Familiar\n Dyle Familiar\n\n King Slime ",
+              "innerHTML": "<div class=\"scrollbox\" style=\"width:96%; height:200px; overflow:auto;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Octopus_Familiar.png/revision/latest?cb=20200525225919\" class=\"mw-file-description image\"><img alt=\"Use Octopus Familiar\" src=\"https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Octopus_Familiar.png/revision/latest?cb=20200525225919\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"32\" class=\"mw-fil",
+              "imgCount": 11,
+              "imgs": [
+                {
+                  "alt": "Use Octopus Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/8/85/Use_Octopus_Familiar.png/revision/latest?cb=20200525225919",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Stirge Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/7/74/Use_Stirge_Familiar.png/revision/latest?cb=20200525224634",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Jr. Wraith Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/f/f0/Use_Jr._Wraith_Familiar.png/revision/latest?cb=20200525230718",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Wraith Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/6/6a/Use_Wraith_Familiar.png/revision/latest?cb=20200525224153",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Shade Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/d/de/Use_Shade_Familiar.png/revision/latest?cb=20200525224857",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Jr. Necki Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/6/6f/Use_Jr._Necki_Familiar.png/revision/latest?cb=20200525230732",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Ligator Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/b/b3/Use_Ligator_Familiar.png/revision/latest?cb=20200525230529",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Croco Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/e/e3/Use_Croco_Familiar.png/revision/latest?cb=20200525065113",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Muddy Swamp Monster Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/b/b7/Use_Muddy_Swamp_Monster_Familiar.png/revision/latest?cb=20200525230123",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use Dyle Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/a/a0/Use_Dyle_Familiar.png/revision/latest?cb=20200525231531",
+                  "width": "24",
+                  "height": "32"
+                },
+                {
+                  "alt": "Use King Slime Familiar",
+                  "src": "https://static.wikia.nocookie.net/maplestory/images/1/1d/Use_King_Slime_Familiar.png/revision/latest?cb=20200525230622",
+                  "width": "24",
+                  "height": "32"
+                }
+              ]
+            },
+            {
+              "cellIndex": 2,
+              "tag": "TD",
+              "colspan": "1",
+              "text": "LUK: +2",
+              "innerHTML": "LUK: +2\n",
+              "imgCount": 0,
+              "imgs": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
