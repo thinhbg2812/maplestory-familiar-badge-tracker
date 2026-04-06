@@ -1,19 +1,19 @@
-import { ref, watch } from 'vue'
-import { badges } from '../data/badges.js'
+import { ref, watch } from "vue";
+import { badges } from "../data/badges.js";
 
-const STORAGE_KEY = 'maple-badge-tracker'
+const STORAGE_KEY = "maple-badge-tracker";
 
 function load() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    return raw ? JSON.parse(raw) : {}
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
   } catch {
-    return {}
+    return {};
   }
 }
 
 function save(data) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
 /**
@@ -24,66 +24,66 @@ function save(data) {
  *   referenceImages    : Record<string, string>  – familiarId → base64 dataURL
  *   settings           : { threshold: number }
  */
-const state = ref(load())
+const state = ref(load());
 
 // Persist every mutation
-watch(state, (v) => save(v), { deep: true })
+watch(state, (v) => save(v), { deep: true });
 
 export function useStorage() {
   /* ── Collected familiars ─────────────────────────────────────── */
   function isCollected(familiarId) {
-    return !!(state.value.collected && state.value.collected[familiarId])
+    return !!(state.value.collected && state.value.collected[familiarId]);
   }
 
   function setCollected(familiarId, value = true) {
-    if (!state.value.collected) state.value.collected = {}
-    state.value.collected[familiarId] = value
+    if (!state.value.collected) state.value.collected = {};
+    state.value.collected[familiarId] = value;
   }
 
   function toggleCollected(familiarId) {
-    setCollected(familiarId, !isCollected(familiarId))
+    setCollected(familiarId, !isCollected(familiarId));
   }
 
   function bulkSetCollected(familiarIds) {
-    if (!state.value.collected) state.value.collected = {}
+    if (!state.value.collected) state.value.collected = {};
     familiarIds.forEach((id) => {
-      state.value.collected[id] = true
-    })
+      state.value.collected[id] = true;
+    });
   }
 
   /* ── Reference images ────────────────────────────────────────── */
   function getReferenceImage(familiarId) {
-    return state.value.references?.[familiarId] ?? null
+    return state.value.references?.[familiarId] ?? null;
   }
 
   function setReferenceImage(familiarId, dataURL) {
-    if (!state.value.references) state.value.references = {}
-    state.value.references[familiarId] = dataURL
+    if (!state.value.references) state.value.references = {};
+    state.value.references[familiarId] = dataURL;
   }
 
   function removeReferenceImage(familiarId) {
     if (state.value.references) {
-      delete state.value.references[familiarId]
+      delete state.value.references[familiarId];
     }
   }
 
   function getAllReferenceImages() {
-    return state.value.references ?? {}
+    return state.value.references ?? {};
   }
 
   function getReferenceCount() {
-    return Object.keys(state.value.references ?? {}).length
+    return Object.keys(state.value.references ?? {}).length;
   }
 
   /** Build a map of bundled (asset) icons: familiarId → URL */
   function getBundledReferenceImages() {
-    const bundled = {}
+    const bundled = {};
     for (const badge of badges) {
       for (const f of badge.familiars) {
-        if (f.icon) bundled[f.id] = f.icon
+        if (f.icon) bundled[f.id] = f.icon;
       }
     }
-    return bundled
+    return bundled;
   }
 
   /** Merge bundled + user-uploaded references (uploaded takes priority) */
@@ -91,60 +91,60 @@ export function useStorage() {
     return {
       ...getBundledReferenceImages(),
       ...getAllReferenceImages(),
-    }
+    };
   }
 
   function getReferenceCountWithBundled() {
-    return Object.keys(getAllReferenceImagesWithBundled()).length
+    return Object.keys(getAllReferenceImagesWithBundled()).length;
   }
 
   /** Check if a familiar has a bundled icon */
   function hasBundledIcon(familiarId) {
     for (const badge of badges) {
       for (const f of badge.familiars) {
-        if (f.id === familiarId && f.icon) return true
+        if (f.id === familiarId && f.icon) return true;
       }
     }
-    return false
+    return false;
   }
 
   function getBundledIcon(familiarId) {
     for (const badge of badges) {
       for (const f of badge.familiars) {
-        if (f.id === familiarId && f.icon) return f.icon
+        if (f.id === familiarId && f.icon) return f.icon;
       }
     }
-    return null
+    return null;
   }
 
   /* ── Settings ────────────────────────────────────────────────── */
   function getSettings() {
     return {
-      threshold: 0.88,
+      threshold: 0.95,
       ...state.value.settings,
-    }
+    };
   }
 
   function updateSettings(patch) {
-    state.value.settings = { ...getSettings(), ...patch }
+    state.value.settings = { ...getSettings(), ...patch };
   }
 
   /* ── Data management ─────────────────────────────────────────── */
   function exportData() {
-    return JSON.stringify(state.value, null, 2)
+    return JSON.stringify(state.value, null, 2);
   }
 
   function importData(json) {
     try {
-      state.value = JSON.parse(json)
-      return true
+      state.value = JSON.parse(json);
+      return true;
     } catch {
-      return false
+      return false;
     }
   }
 
   function clearAll() {
-    state.value = {}
+    state.value = {};
   }
 
   return {
@@ -167,5 +167,5 @@ export function useStorage() {
     exportData,
     importData,
     clearAll,
-  }
+  };
 }

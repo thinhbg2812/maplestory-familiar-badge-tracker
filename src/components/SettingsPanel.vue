@@ -3,34 +3,7 @@
     <h2>Settings</h2>
 
     <!-- Match Threshold -->
-    <section class="setting-section card" style="padding: 20px">
-      <h3>🎯 Match Threshold</h3>
-      <p class="text-sm text-muted" style="margin: 8px 0">
-        Controls how strict the template matching is. Lower values (e.g. &lt;
-        80%) find more matches but may include false positives on generic
-        backgrounds.
-      </p>
-      <div class="threshold-control">
-        <input
-          type="range"
-          min="0.3"
-          max="0.95"
-          step="0.01"
-          :value="settings.threshold"
-          @input="updateThreshold"
-        />
-        <div class="threshold-value">
-          {{ (settings.threshold * 100).toFixed(0) }}%
-        </div>
-      </div>
-      <div
-        class="threshold-labels flex justify-between text-xs text-muted"
-        style="margin-top: 4px"
-      >
-        <span>Lenient (30%)</span>
-        <span>Strict (95%)</span>
-      </div>
-    </section>
+
 
     <!-- Export / Import -->
     <section class="setting-section card" style="padding: 20px">
